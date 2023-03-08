@@ -556,7 +556,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  
  Protocol:
  1. For a single plant, plot, or group of established plants, record the date when 50% of the plants have new spring growth.",RGest,,,CO_369:0003004,date,date,Date,,,,,,,,,,,,,,,,,,,,,,,,,
-,CO_369:0000057,PlStd_PtStdest_SE0-9,Plant stem erectness est [SE0-9],This is variable is a rating on an ordinal scale representing the percentage of erect stems (stems with a ground angle > 45 degrees) within a given plot/group of plants.,,,"F2,P1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,02-11-2022,EN,Sainfoin,CO_369:0001050,Plant,stem erectness,Plant stem erectness,Phenological,"The proportion of plants within a sampled plot/sward that are resistant to stem lodging, i.e. have stem angles > 45 degrees.",,PlStd,,Recommended,,CO_369:0002078,Stem erectness estimation,Estimation,"Description: Estimate the erectness of stems in a plant or plot of plants
+,CO_369:0000057,PlStEr_StErest_SE0-9,Plant stem erectness est [SE0-9],This is variable is a rating on an ordinal scale representing the percentage of erect stems (stems with a ground angle > 45 degrees) within a given plot/group of plants.,,,"F2,P1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,02-11-2022,EN,Sainfoin,CO_369:0001050,Plant,stem erectness,Plant stem erectness,Morphological,"The proportion of plants within a sampled plot/sward that are resistant to stem lodging, i.e. have stem angles > 45 degrees.",,PlStEr,,Recommended,,CO_369:0002078,Stem erectness estimation,Estimation,"Description: Estimate the erectness of stems in a plant or plot of plants
  
  Materials: 
  
@@ -564,7 +564,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  
  Protocol:
  1. Estimate the percentage of stems that have a mean angle greater than 45 degrees from the ground.
- 2. Record the standability as the number bin (0-9) that contains the estimated percentage.",PtStdest,,,CO_369:0003029,SE0-9,SE0-9,Ordinal,,0,0-10% erect stems,1,11-20% erect stems,2,21-30% erect stems,3,31-40% erect stems,4,41-50% erect stems,5,51-60% erect stems,6,61-70% erect stems,7,71-80% erect stems,8,81-90% erect stems,9,91-100% erect stems,,,,
+ 2. Record the stem erectness as the number bin (0-9) that contains the estimated percentage.",StErest,,,CO_369:0003029,SE0-9,SE0-9,Ordinal,,0,0-10% erect stems,1,11-20% erect stems,2,21-30% erect stems,3,31-40% erect stems,4,41-50% erect stems,5,51-60% erect stems,6,61-70% erect stems,7,71-80% erect stems,8,81-90% erect stems,9,91-100% erect stems,,,,
 ,CO_369:0000058,PlWKD_WKest_WKD1-5,Plant winter kill damage est [WKD1-5],"A visual rating of the winter kill damage on a plant, plot, or group of plants on the winter kill damage 1-5 scale.",,,Do,Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,02-11-2022,EN,Sainfoin,CO_369:0001051,Plant,winter kill damage,Plant winter kill damage,Agronomic,The winter damage observed on a plant or group of plants,,PlWKD,,Recommended,,CO_369:0002082,Winter kill estimation,Estimation,"Description: Estimate the winter kill damage of a plant or plot
  
  Materials:
