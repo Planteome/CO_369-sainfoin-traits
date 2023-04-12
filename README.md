@@ -5,7 +5,7 @@ This ontology describes a standard trait lexicon used in phenotyping the forage 
 You can browse the ontology here or at [Crop Ontology](https://cropontology.org/term/CO_369:ROOT)
 
 ## Current Highest Term IDs
-* Variable: CO_369:0000101
-* Trait: CO_369:0001083
-* Method: CO_369:0002086
-* Scale: CO_369:0003033
+* Variable: CO_369:0000112
+* Trait: CO_369:0001092
+* Method: CO_369:0002091
+* Scale: CO_369:0003037
