@@ -1016,7 +1016,7 @@ Protocol: 1. Sample compound leaves according to the sampling protocol.
 4. Sum the leaflets and divide by the number of compound leaves. 
 
 Note: This data can be collected manually or by scanning/imaging and image analysis.",LfCLcmp,Leaflet(n)/compound leaf(n),,CO_369:0003033,number per compound leaf,n/CL,Numerical,,,,,,,,,,,,,,,,,,,,,,,,,
-,CO_369:0000102,PtAr_PtArmsr_Ha,Plot area msr [ha],"The total area of an experimental plot, measured in hectares.",,,"V1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering,2023-04-03,EN,Sainfoin,CO_369:0001053,Plot,area,Plot area,Morphological,The total area of an experimental plot,,PtAr,,Recommended,,CO_369:0002052,Plot area measurement,Measurement,"Description: Measure the total area of a plot
+,CO_369:0000102,PtAr_PtArmsr_ha,Plot area msr [ha],"The total area of an experimental plot, measured in hectares.",,,"V1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering,2023-04-03,EN,Sainfoin,CO_369:0001053,Plot,area,Plot area,Morphological,The total area of an experimental plot,,PtAr,,Recommended,,CO_369:0002052,Plot area measurement,Measurement,"Description: Measure the total area of a plot
 
  Materials: tape measure
 
@@ -1025,8 +1025,8 @@ Note: This data can be collected manually or by scanning/imaging and image analy
  Protocol:
  1. Find the corner of the plot.
  2. Record the actual length and width of the plot.
- 3. Multiply and express in square units of length or in some standard area unit.",PtArmsr,,,CO_369:0003037,kilogram per hectare,ha,Numerical,UO:0010010,,,,,,,,,,,,,,,,,,,,,,,,
-,CO_369:0000103,FoYld_FoYldArcmp_kg/Ha,Forage yield cmp [kg/ha],This is the total yield of forage expressed in kg per hectare.,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering,2023-04-03,EN,Sainfoin,CO_369:0001017,Forage,yield,Forage yield,Agronomic,The total mass of forage harvested or sampled relative to some other value,,FoYld,,Recommended,,CO_369:0002016,Forage yield per area computation,Computation,"Description: Calculate the total mass of forage harvested per unit area.
+ 3. Multiply and express in square units of length or in some standard area unit.",PtArmsr,,,CO_369:0003037,hectare,ha,Numerical,UO:0010010,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000103,FoYld_FoYldArcmp_kg/ha,Forage yield cmp [kg/ha],This is the total yield of forage expressed in kg per hectare.,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering,2023-04-03,EN,Sainfoin,CO_369:0001017,Forage,yield,Forage yield,Agronomic,The total mass of forage harvested or sampled relative to some other value,,FoYld,,Recommended,,CO_369:0002016,Forage yield per area computation,Computation,"Description: Calculate the total mass of forage harvested per unit area.
 
  Materials: tape measure; scale;
 
