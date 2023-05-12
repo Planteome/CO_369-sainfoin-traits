@@ -68,7 +68,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  Dependent_on:
 
  Protocol:
- 1. See https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_ADF.pdf",ADFmsr,"ADF = \frac{(W0 - Wt)*(100)}{S}
+ 1. See https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_ADF.pdf",ADFmsr,"ADF = frac{(W0 - Wt)*(100)}{S}
 
 
  W0 = mass of dried crucible with fiber
@@ -99,7 +99,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  6. Cool in desiccator and weigh within 1 h after reaching room temperature.
  7. Weigh ashed sample and record weight to 4 decimal places.
  8. Calculate % Ash and record value with one decimal.
- 9. https://www.clemson.edu/public/regulatory/ag-srvc-lab/feed-forage/procedure20.html",FoACmsr,\%Ash=\frac{(ashed_wt-crucible_wt)*100}{(crucible_wt + sample_wt)-crucible_wt},,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
+ 9. https://www.clemson.edu/public/regulatory/ag-srvc-lab/feed-forage/procedure20.html",FoACmsr,%Ash=frac{(ashed_wt-crucible_wt)*100}{(crucible_wt + sample_wt)-crucible_wt},,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000010,FoCPC_CPCmsr_g/kg,Forage crude protein content msr [g/kg],The total crude protein content in forage as determined by the macro-khedjal method.,,breeding selection,"E1,PH1",Recommended,"Guglielmelli et al., 2011","The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-23,EN,Sainfoin,CO_369:0001009,Forage,crude protein content,Forage crude protein content,Quality,The total crude protein content of forage,,FoCPC,,Recommended,,CO_369:0002004,Crude protein content measurement,Measurement,"Description: Determination of crude protein content by macro Khedjal method
 
  Materials: See protocol
@@ -125,7 +125,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  Dependent_on: Forage fresh mass msr [kg], Forage dry mass msr [kg] | Forage subsample fresh mass msr [kg], Forage subsample dry mass msr [kg]
 
  Protocol:
- 1. Divide the dry biomass by the fresh biomass and multiply by 100 to get the percent dry matter of either a sample of subsample of forage.",PctDMcmp,\frac{dry_mass}{fresh_mass}*100,,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
+ 1. Divide the dry biomass by the fresh biomass and multiply by 100 to get the percent dry matter of either a sample of subsample of forage.",PctDMcmp,frac{dry_mass}{fresh_mass}*100,,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000013,FoFM_FoMmsr_kg,Forage fresh mass msr [kg],The total fresh mass of harvested forage material expressed in kg.,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23,EN,Sainfoin,CO_369:0001012,Forage,fresh mass,Forage fresh mass,Quality,The total mass of fresh forage,,FoFM,,Recommended,,CO_369:0002014,Forage mass measurement,Measurement,"Description: Record the mass of forage material
 
  Materials: digital scale;
@@ -146,7 +146,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  1. Sample forage according to your sampling protocol.
  2. Weigh both the fresh weight of the forage as well as the dried weight of the whole sample, or if a large quantity, just a subsample.
  3. Find the difference between the fresh mass and the dry mass and divide by the fresh mass.
- 4. Multiply by 1000 if expressing as g/kg or leave as is to express as g/g or kg/kg.",MoiCcmp,\frac{fresh_mass - dry_mass}{fresh_mass}*1000,,CO_369:0003008,gram per kilogram,g/kg,Numerical,UO:0000021/UO:0000009,,,,,,,,,,,,,,,,,,,,,,,,
+ 4. Multiply by 1000 if expressing as g/kg or leave as is to express as g/g or kg/kg.",MoiCcmp,frac{fresh_mass - dry_mass}{fresh_mass}*1000,,CO_369:0003008,gram per kilogram,g/kg,Numerical,UO:0000021/UO:0000009,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000015,FoNDFC_NDFmsr_g/kg,Forage NDF Content msr [g/kg],The total amount of fiber per sample mass as determined using neutral detergent solution expressed in g/kg.,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23,EN,Sainfoin,CO_369:0001014,Forage,NDF Content,Forage NDF Content,Quality,The total forage fiber content as determined by the neutral detergent fiber method.,,FoNDFC,,Recommended,,CO_369:0002034,Neutral detergent fiber measurement,Measurement,"Description: Determination of forage fiber content by the neutral detergent method.
 
  Materials:
@@ -298,7 +298,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  1. Create a bounding box around a segmented object using cv.boundingrect(obj).
  2. Extract the bounding box width and height.
  3. Express the aspect ratio as the width/height.
- 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",ARmsr,AR=\frac{width}{height},,CO_369:0003028,ratio,ratio,Numerical,UO:0010006,,,,,,,,,,,,,,,,,,,,,,,,
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",ARmsr,AR=frac{width}{height},,CO_369:0003028,ratio,ratio,Numerical,UO:0010006,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000030,FrCol_Colmsr_HSV,Legume fruit color msr [HSV],The color of a legume fruit when measured by image analysis expressed in the HSV color model.,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13,EN,Sainfoin,CO_369:0001027,Legume fruit,color,Legume fruit color,Morphological,"The average color of a legume fruit or group of legume fruits from a plant, expressed as a vector of float values in the color model of choice such as RGB or HSV.",,FrCol,,Recommended,,CO_369:0002036,Object color measurement,Measurement,"Description: Calculate the average color of an object
 
  Materials: seed image, python-opencv
@@ -530,7 +530,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  Protocol:
  1. Sample stems according to your sampling protocol.
  2. Tally the number of stems in that fall into each category.
- 3. Over all indices from the lowest growth stage index to the highest index, sum the product of the growth stage index and the number of stems in that growth stage divided by the number of stems.",MSCcmp,MSC=\sum_{i=0}^{n} (S*N)/C,"Quantifying Morphological Development of Alfalfa for Studies of Herbage Quality. Bernard A. Kalu and Gary W. Fick. Crop Science , Vol 21, March-April 1981",CO_369:0003027,PGrS,PGrS scale,Numerical,,Em,Seedling emergence,V1,Vegetative stage - no elongated stems,E1,Vegetative stage - stem elongation,B1,Early bud: 1 to 2 nodes with buds; no flowers or seed pods,B2,Late bud: > 2 nodes with buds; no flowers or seed pods,F1,Early flowering: one node with one open flower; no seed pods,F2,Peak/Late Flowering: >= 2 nodes with open flower; no seed pods,P1,Early seed pod: 1 to 3 nodes with green seed pods,P2,Late seed pod: > 3 nodes with green seed pods,P3,Ripe seed pod: nodes with mostly brown mature seed pods,PH1,"Postharvest: After harvesting all seeds, fruit, or forage",Do,Dormant winter period
+ 3. Over all indices from the lowest growth stage index to the highest index, sum the product of the growth stage index and the number of stems in that growth stage divided by the number of stems.",MSCcmp,MSC=sum_{i=0}^{n} (S*N)/C,"Quantifying Morphological Development of Alfalfa for Studies of Herbage Quality. Bernard A. Kalu and Gary W. Fick. Crop Science , Vol 21, March-April 1981",CO_369:0003027,PGrS,PGrS scale,Numerical,,Em,Seedling emergence,V1,Vegetative stage - no elongated stems,E1,Vegetative stage - stem elongation,B1,Early bud: 1 to 2 nodes with buds; no flowers or seed pods,B2,Late bud: > 2 nodes with buds; no flowers or seed pods,F1,Early flowering: one node with one open flower; no seed pods,F2,Peak/Late Flowering: >= 2 nodes with open flower; no seed pods,P1,Early seed pod: 1 to 3 nodes with green seed pods,P2,Late seed pod: > 3 nodes with green seed pods,P3,Ripe seed pod: nodes with mostly brown mature seed pods,PH1,"Postharvest: After harvesting all seeds, fruit, or forage",Do,Dormant winter period
 ,CO_369:0000054,PlN_PlNcnt_n,Plant number cnt [n],This is a generic variable for recording the number of plants observed or sampled.,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14,EN,Sainfoin,CO_369:0001047,Plant,number,Plant number,Agronomic,The total number of plants observed.,,PlN,,Recommended,,CO_369:0002051,Plant number counting,Counting,"Description: Record the total number of plants in a group or sample
 
  Materials:
@@ -654,7 +654,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  Protocol:
  1. Weigh 3-5 +/- 0.0001 g of well mixed sample into ashing dish that has been ignited, cooled in desiccator, and weighed soon after attaining room temperature.
  2. Place in muffle furnace at 550F for soft wheat flours or 575-590 for hard wheat flours. Incinerate until light gray ash is obtained or to constant weight. Ash must not be allowed to fuse. Cool in desiccator and weigh soon after room temperature is attained.
- 3. See AACC 08-01.01",ACmsr,SdAC= \frac{weight_{residue}}{weight_{sample}}\cdot 100,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+ 3. See AACC 08-01.01",ACmsr,SdAC= frac{weight_{residue}}{weight_{sample}}cdot 100,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000067,SdAR_ARmsr_ratio,Seed aspect ratio msr [ratio],The ratio of the seed bounding box width to its height.,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21,EN,Sainfoin,CO_369:0001058,Seed,aspect ratio,Seed aspect ratio,Morphological,The ratio of the seed bounding box width to its height.,,SdAR,,Recommended,,CO_369:0002035,Object aspect ratio measurement,Measurement,"Description: Calculate the ratio of the object's bounding box width to it's height
 
  Materials: seed image, python-opencv
@@ -665,7 +665,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  1. Create a bounding box around a segmented object using cv.boundingrect(obj).
  2. Extract the bounding box width and height.
  3. Express the aspect ratio as the width/height.
- 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",ARmsr,AR=\frac{width}{height},,CO_369:0003028,ratio,ratio,Numerical,UO:0010006,,,,,,,,,,,,,,,,,,,,,,,,
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",ARmsr,AR=frac{width}{height},,CO_369:0003028,ratio,ratio,Numerical,UO:0010006,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000068,SdCC_CCcmp_DMB,Seed carbohydrate content cmp [DMB],The carbohydrate content of a sample of seeds expressed on a dry matter basis.,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20,EN,Sainfoin,CO_369:0001059,Seed,carbohydrate content,Seed carbohydrate content,Quality,The carbohydrate content of a sample of seeds,,SdCC,,Recommended,,CO_369:0002058,Seed carbohydrate content computation,Computation,"Description: A quick, indirect computation of total seed carbohydrates based.
 
  Materials:
@@ -777,7 +777,7 @@ Curation,Variable ID,Variable name,Variable label,Variable description,Variable 
  10. Weigh dishes after they reach room temperature (45-60 min usually).
  11. Determine loss in weight as moisture.
  12. Replicate determinations must be within 0.2% moisture.
- 13. See AACC 44-15.02",SdMoiCmsr,"\%Moisture=\frac{A}{B}\cdot100
+ 13. See AACC 44-15.02",SdMoiCmsr,"%Moisture=frac{A}{B}cdot100
 
  A = moisture loss in grams
  B = original weight of sample in grams",,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
@@ -996,7 +996,7 @@ Dependent on:
 Protocol: 1. Sample stems according to your sampling protocol. 
 2. Sample stems according to your sampling protocol. 
 3. Weigh the fruit in g. 
-4. Divide the fruit mass by the number of stems to express fruit yield in g/stem.",FrYldStcmp,FrYld = \frac{FrM[g]}{FrM[n]},,CO_369:0003012,gram per stem,g/St,Numerical,,,,,,,,,,,,,,,,,,,,,,,,,
+4. Divide the fruit mass by the number of stems to express fruit yield in g/stem.",FrYldStcmp,FrYld = frac{FrM[g]}{FrM[n]},,CO_369:0003012,gram per stem,g/St,Numerical,,,,,,,,,,,,,,,,,,,,,,,,,
 ,CO_369:0000100,PlVR_Vrest_VR1to5,Plant verticillium resistance est [VR1to5],"The resistance of sainfoin germplasm to Verticillium wilt, estimated on a -5 Verticillium restistance scale.",,,"V1,E1,B1,B2,F1,F2,P1,P2,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering,2023-03-08,EN,Sainfoin,CO_369:0001083,Plant,verticillium resistance,Plant verticillium resistance,Biotic Stress,The resistance of sainfoin germplasm to Verticillium wilt,,PlVR,,Recommended,,CO_369:0002085,Verticillium resistance estimation,Estimation,"Description: A simple method to rate plants according to their resistance to verticillium infections 
 
 Materials: 
