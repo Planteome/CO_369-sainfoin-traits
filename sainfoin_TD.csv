@@ -1121,3 +1121,88 @@ Materials:
 Dependent_on: Seed number cnt [n], Seed germination cnt [n]
 
 Protocol: 1. Divide the Seed germination cnt [n] of a seedlot sample by the total Seed number cnt [n] in the sample.",Gcmp,,,CO_369:0003001,percent,%,Numerical,UO:0000187,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000113,StN_StNPlcmp_n/Pt,Stem number cmp [n/Pt],The number of stems on a per plot basis.,,,"B1,B2,F1,F2,P2,P3",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-07-07,EN,Sainfoin,CO_369:0001082,Stem,number,Stem number,Morphological,"The total number of stems counted, estimated, or observed",,StN,,Recommended,,CO_369:0002080,Stem number counting,Counting,"Description: Record the number of stems on one plant
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, count the number of stems and express as an integer.",StNcnt,,,CO_369:0003035,number per plot,n/Pt,Numerical,,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000114,SdSDFC_DFCmsr_DMB,Seed soluble dietary fiber content msr [DMB],"The total dietary fiber content in the soluble fraction of the seed extraction, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001093,Seed,soluble dietary fiber content,Seed soluble dietary fiber content,Quality,The dietary fiber content in the soluble fraction of a sample of seeds.,,SdSDFC,,Recommended,,CO_369:0002060,Seed dietary fiber content measurement,Measurement,"Description: Measure the total dietary fiber in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 32-07.01 (method1)
+ 2. See AOAC 991.43 (method2)",DFCmsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000115,SdIDFC_DFCmsr_DMB,Seed insoluble dietary fiber content msr [DMB],"The total dietary fiber content in the insoluble fraction of the seed extraction, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001094,Seed,insoluble dietary fiber content,Seed insoluble dietary fiber content,Quality,The dietary fiber content in the insoluble fraction of a sample of seeds.,,SdIDFC,,Recommended,,CO_369:0002060,Seed dietary fiber content measurement,Measurement,"Description: Measure the total dietary fiber in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 32-07.01 (method1)
+ 2. See AOAC 991.43 (method2)",DFCmsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000116,SdGlucC_SdSumsr_DMB,Seed glucose content msr [DMB],"The glucose content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001095,Seed,glucose content,Seed glucose content,Quality,The total glucose content of a sample of seeds.,,SdGlucC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000117,SdFrucC_SdSumsr_DMB,Seed fructose content msr [DMB],"The fructose content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001096,Seed,fructose content,Seed fructose content,Quality,The total fructose content of a sample of seeds.,,SdFrucC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000118,SdSucC_SdSumsr_DMB,Seed sucrose content msr [DMB],"The sucrose content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001097,Seed,sucrose content,Seed sucrose content,Quality,The total sucrose content of a sample of seeds.,,SdSucrC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000119,SdMaltC_SdSumsr_DMB,Seed maltose content msr [DMB],"The maltose content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001098,Seed,maltose content,Seed maltose content,Quality,The total maltose content of a sample of seeds.,,SdMaltC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000120,SdLactC_SdSumsr_DMB,Seed lactose content msr [DMB],"The lactose content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001099,Seed,lactose content,Seed lactose content,Quality,The total lactose content of a sample of seeds.,,SdLactC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000121,SdTSuC_SdSumsr_DMB,Seed total sugar content msr [DMB],"The total sugar content of a seed sample determined by HLPC, expressed in g/100g of seed on a dry matter basis.",,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04,EN,Sainfoin,CO_369:0001100,Seed,total sugar content,Seed total sugar content,Quality,"The total sugar content of a sample of seeds. Is the sum total of the glucose, fructose, sucrose, maltose, lactose, and other minor sugars in the sample.",,SdTSuC,,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",SdSumsr,,,CO_369:0003006,gram per 100 gram (dry matter basis),DMB,Numerical,UO:1000021,,,,,,,,,,,,,,,,,,,,,,,,
+,CO_369:0000122,StTh_StThmsr_mm,Stem thickness msr [mm],"The thickness of a stem as measured by digital calipers between the second and third nodes on a mature stem, expressed in mm.",,,"F1,F2",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2023-10-04,EN,Sainfoin,CO_369:0001101,Stem,thickness,Stem thickness,Morphological,The thickness of the stem measured at the midpoint between the second and third nodes on a mature stem.,,StTh,,Recommended,,CO_369:0002093,Stem thickness measurement,Measurement,"Description: Measurement of stem thickness using digital calipers
+
+Materials: digital calipers;
+
+Dependent_on:
+
+Protocol:
+1. Select a mature sainfoin stem
+2. Locate the midpoint between the second and third nodes on the stem and record the thickness using calipers to the nearest tenth of a millimeter.
+
+Note: Can be used as a single stem trait or take the average if sampling several stems on a plant/plot.",StThmsr,,,CO_369:0003021,millimeter,mm,Numerical,UO:0000016,,,,,,,,,,,,,,,,,,,,,,,,
