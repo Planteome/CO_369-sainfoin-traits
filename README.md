@@ -1,4 +1,7 @@
 # CO_369: Sainfoin Crop Ontology
+
+[![DOI](https://zenodo.org/badge/590886693.svg)](https://zenodo.org/doi/10.5281/zenodo.11475143)
+
 ## General Ontology Information
 |||
 |----|----|
