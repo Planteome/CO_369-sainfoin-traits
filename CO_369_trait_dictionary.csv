@@ -1,0 +1,1318 @@
+curation,Variable ID,Variable name,Variable synonyms,Context of use,Growth stage,Variable status,Variable Xref,Institution,Scientist,Date,Language,Crop,Trait ID,Trait name,Trait class,Trait description,Trait synonyms,Main trait abbreviation,Alternative trait abbreviations,Entity,Attribute,Trait status,Trait Xref,Method ID,Method name,Method class,Method description,Formula,Method reference,Scale ID,Scale name,Scale class,Decimal places,Lower limit,Upper limit,Scale Xref,Category 1,Category 2,Category 3,Category 4,Category 5,Category 6,Category 7,Category 8,Category 9,Category 10
+,CO_369:0000001,CanHt_Htmsr_cm,,,"V1,E1,B1,B2",Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001001,Canopy height,Morphological,"The height of a plant, plot, or group of plants when measured from the soil surface to the growing apex or average growing apex of the plant(s).",,CanHt,,Canopy,height,Recommended,,CO_369:0002050,Plant natural height measurement,Measurement,"Description: Measure the natural height of plants
+
+ Materials: metric ruler/tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, place the origin of the ruler at the base of the plant on the surface of the soil.
+ 2. Record the vertical distance to the growing apices of the plant or the average height of the plant if the growing apices are lower than the tallest points of the plant (i.e. when the growth habit is not erect).
+ 3. Repeat for as many plants as necessary and average the results for the entire plot, group.",,,CO_369:0003003,centimeter,Numerical,,,,UO:0000015,,,,,,,,,,
+,CO_369:0000002,CLL_CLLmsr_mm,leaf length,breeding selection,E1,Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001002,Compound leaf length,Morphological,The total length of a compound leaf from the base of the petiole to the distal end of the terminal leaflet.,,CLL,,Compound leaf,length,Recommended,,CO_369:0002003,Compound leaf length measurement,Measurement,"Description: Measurement of the length of a compound leaf
+
+ Materials: Metric ruler or tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a mature, fully-expanded compound leaf
+ 2. Lay the compound leaf out on a flat surface and record the length from the proximal end of the petiole to the distal end of the terminal leaflet.",,"A Study on the Determination of the Morphological Yield and Quality Characteristics of some Sainfoin Species (Onobrychis Spp.) Native to East Anatolia. Melih Okcu and Suleyman Sengul. Pak. J. Bot., 46(5): 1837-1842, 2014",CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000003,FlCol_FlColmsr_CIELAB,,,"F1,F2",Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001003,Flower color,Morphological,"The color of a flower or group of flowers from a plant, expressed as a vector of float values on a color scale of choice.",,FlCol,,Flower,color,Recommended,,CO_369:0002007,Flower color measurement,Measurement,"Description: Measure the color of flowers in CIELAB color space
+
+ Materials: handheld or benchtop colorimeter
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample flowers according to your sampling protocol.
+ 2. Measure the color of a flower or a set of flowers using the colorimeter.
+ 3. Express the average value as a vector [x, y, z] in the CIELAB color model.",,"Identification of Sainfoin Species (Onobrychis spp.) from Morphologic Characters and Flower Colour by L*a*b*, RGB and HSV Colours by Principle Component Analysis. Celalettin Aygun et al. Journal of Applied Biological Sciences. 2146-0108 12 (3):45-52, 2018.;
+ Transcriptomic and chemical analyses to identify candidate genes involved in color variation of sainfoin flowers. Yu Qiao, Qiming Cheng, Yutong Zhang, Wei Yan, Fengyan Yi, Fengling Shi. BMC Plant BIology, 2021, 21:61",CO_369:0003002,CIELAB,Code,,,,,,,,,,,,,,
+,CO_369:0000004,FlFert_FlPctFertcmp_%,,breeding selection,"P2,P3",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001004,Flower fertilization,Agronomic,The percentage of flowers on a raceme or group of racemes that were fertilized and developed into legume fruit.,,FlFert,,Flower,fertilization,Recommended,,CO_369:0002010,Flower percent fertilization computation,Computation,"Description: Record the percentage of flowers that were fertilized on a raceme.
+
+ Materials: loupe (if needed)
+
+ Dependent_on: Legume fruit cnt [n], Flower number cnt [n]
+
+ Protocol:
+ 1. Sample racemes according to your sampling protocol.
+ 2. Record the flower number on each raceme
+ 3. Record the fruit number on each raceme
+ 4. For each raceme, divide the fruit number by the flower number to get a percentage of flowers fertilized.
+ 5. For more than one raceme, record the average percent fertilization as a percentage",,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000005,FlN_FlNRacmp_n/Ra,,,F2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001005,Flower number,Agronomic,"The total number of flowers counted, estimated, or observed.",,FlN,,Flower,number,Recommended,,CO_369:0002009,Flower number per raceme computation,Computation,"Description: Count the total number of flowers or flower scars that are present on a raceme.
+
+ Materials: loupe (if needed);
+
+ Dependent_on: Flower number cnt [n], Raceme number cnt [n]
+
+ Protocol:
+ 1. Select racemes according to your sampling protocol.
+ 2. Count and record the number of flowers or flower scars on each raceme.
+ 3. Record the average number of leaves per raceme.",,,CO_369:0003025,number per raceme,Numerical,,,,UO:0000189/PO:0030115,,,,,,,,,,
+,CO_369:0000006,FlN_FlNcnt_n,,,F2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001005,Flower number,Agronomic,"The total number of flowers counted, estimated, or observed.",,FlN,,Flower,number,Recommended,,CO_369:0002008,Flower number counting,Counting,"Description: Count the total number of flowers present
+
+ Materials: loupe (if needed);
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample racemes, inflorescences, stems, or plants according to your sampling protocol.
+ 2. Count and record the total number of visible flowers and flower scars that are present.
+ 3. Express as an integer",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000007,FoADFC_ADFmsr_g/kg,,,"E1,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001006,Forage ADF content,Quality,The total forage fiber content as determined by the acid detergent fiber method.,,FoADFC,,Forage,ADF content,Recommended,,CO_369:0002001,Acid detergent fiber measurement,Measurement,"Description: Measurement of acid detergent fiber with acid detergent solution
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_ADF.pdf","ADF = frac{(W0 - Wt)*(100)}{S}
+
+
+ W0 = mass of dried crucible with fiber
+ Wt = tared mass of dried, empty crucible.
+ S = oven-dry sample weight",https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_ADF.pdf,CO_369:0003008,gram per kilogram,Numerical,,,,UO:0000021/UO:0000009,,,,,,,,,,
+,CO_369:0000008,FoADLC_ADLmsr_g/kg,,,"E1,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001007,Forage ADL content,Quality,The total forage lignin content as determined by one of several methods,,FoADLC,,Forage,ADL content,Recommended,,CO_369:0002002,Acid detergent lignin measurement,Measurement,"Description: Measurement of acid detergent lignin with acid detergent solution
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_lignin.pdf","ADL = {L*100}/S
+
+ Where L = Loss from ADF upon ignition after 72% H2SO4 treatment and S = oven-dry sample weight",https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_lignin.pdf,CO_369:0003008,gram per kilogram,Numerical,,,,UO:0000021/UO:0000009,,,,,,,,,,
+,CO_369:0000009,FoAC_FoACmsr_%,,,"E1,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001008,Forage ash content,Quality,The total ash content,,FoAC,,Forage,ash content,Recommended,,CO_369:0002013,Forage ash content measurement,Measurement,"Description: Determine the ash content of a sample of forage
+
+ Materials: muffle furnace; porcelain crucibles; laboratory balance;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample forage according to your sampling protocol.
+ 2. Weigh crucible and record weight to 4 decimal places.
+ 3. Weigh approximately 2 g into crucible.
+ 4. Record weight to 4 decimal places.
+ 5. Ash sample at 600oC for 2 h. (Bring temperature rapidly to 600)
+ 6. Cool in desiccator and weigh within 1 h after reaching room temperature.
+ 7. Weigh ashed sample and record weight to 4 decimal places.
+ 8. Calculate % Ash and record value with one decimal.
+ 9. https://www.clemson.edu/public/regulatory/ag-srvc-lab/feed-forage/procedure20.html",%Ash=frac{(ashed_wt-crucible_wt)*100}{(crucible_wt + sample_wt)-crucible_wt},,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000010,FoCPC_CPCmsr_g/kg,,breeding selection,"E1,PH1",Recommended,"Guglielmelli et al., 2011","The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001009,Forage crude protein content,Quality,The total crude protein content of forage,,FoCPC,,Forage,crude protein content,Recommended,,CO_369:0002004,Crude protein content measurement,Measurement,"Description: Determination of crude protein content by macro Khedjal method
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_CP.pdf",,https://uwlab.soils.wisc.edu/wp-content/uploads/sites/17/2015/09/forage_CP.pdf,CO_369:0003008,gram per kilogram,Numerical,,,,UO:0000021/UO:0000009,,,,,,,,,,
+,CO_369:0000011,FoDM_FoMmsr_kg,,breeding selection,"E1,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001010,Forage dry mass,Quality,The total mass of dried forage,,FoDM,,Forage,dry mass,Recommended,,CO_369:0002014,Forage mass measurement,Measurement,"Description: Record the mass of forage material
+
+ Materials: digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Harvest forage material either by hand or with a forage harvester.
+ 2. For fresh forage mass measurement, place the forage sample on the scale at the time of or shortly after harvesting and record the weight.
+ 3. For dry forage mass measurement, dry the forage to constant weight in a drying oven, place the material on a scale, and record the weight.",,,CO_369:0003015,kilogram,Numerical,,,,UO:0000009,,,,,,,,,,
+,CO_369:0000012,FoDM_PctDMcmp_%,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001011,Forage dry matter,Quality,The percentage of dry matter found in fresh forage,,FoDM,,Forage,dry matter,Recommended,,CO_369:0002046,Percent dry matter computation,Computation,"Description: Compute the dry matter percentage of a sample
+
+ Materials:
+
+ Dependent_on: Forage fresh mass msr [kg], Forage dry mass msr [kg] | Forage subsample fresh mass msr [kg], Forage subsample dry mass msr [kg]
+
+ Protocol:
+ 1. Divide the dry biomass by the fresh biomass and multiply by 100 to get the percent dry matter of either a sample of subsample of forage.",frac{dry_mass}{fresh_mass}*100,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000013,FoFM_FoMmsr_kg,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001012,Forage fresh mass,Quality,The total mass of fresh forage,,FoFM,,Forage,fresh mass,Recommended,,CO_369:0002014,Forage mass measurement,Measurement,"Description: Record the mass of forage material
+
+ Materials: digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Harvest forage material either by hand or with a forage harvester.
+ 2. For fresh forage mass measurement, place the forage sample on the scale at the time of or shortly after harvesting and record the weight.
+ 3. For dry forage mass measurement, dry the forage to constant weight in a drying oven, place the material on a scale, and record the weight.",,,CO_369:0003015,kilogram,Numerical,,,,UO:0000009,,,,,,,,,,
+,CO_369:0000014,FoMoiC_MoiCcmp_g/kg,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-16 00:00:00,EN,Sainfoin,CO_369:0001013,Forage moisture content,Quality,The total moisture content calculated in fresh forage.,,FoMoiC,,Forage,moisture content,Recommended,,CO_369:0002033,Moisture content computation,Computation,"Description: Record the moisture content of a forage sample
+
+ Materials:
+
+ Dependent_on: Forage dry mass [kg], Forage fresh mass [kg] | Forage subsample dry mass [g], Forage subsample fresh mass [kg]
+
+ Protocol:
+ 1. Sample forage according to your sampling protocol.
+ 2. Weigh both the fresh weight of the forage as well as the dried weight of the whole sample, or if a large quantity, just a subsample.
+ 3. Find the difference between the fresh mass and the dry mass and divide by the fresh mass.
+ 4. Multiply by 1000 if expressing as g/kg or leave as is to express as g/g or kg/kg.",frac{fresh_mass - dry_mass}{fresh_mass}*1000,,CO_369:0003008,gram per kilogram,Numerical,,,,UO:0000021/UO:0000009,,,,,,,,,,
+,CO_369:0000015,FoNDFC_NDFmsr_g/kg,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001014,Forage NDF Content,Quality,The total forage fiber content as determined by the neutral detergent fiber method.,,FoNDFC,,Forage,NDF Content,Recommended,,CO_369:0002034,Neutral detergent fiber measurement,Measurement,"Description: Determination of forage fiber content by the neutral detergent method.
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://www.journalofdairyscience.org/article/S0022-0302(91)78551-2/pdf",,"SYMPOSIUM: CARBOHYDRATE METHODOLOGY, METABOLISM,
+ AND NUTRITIONAL IMPLICATIONS IN DAIRY CAlTLE. Van SOest et al. J Dairy Sci. 1991 Oct;74(10):3583-97. doi: 10.3168/jds.S0022-0302(91)78551-2. https://www.journalofdairyscience.org/article/S0022-0302(91)78551-2/pdf",CO_369:0003008,gram per kilogram,Numerical,,,,UO:0000021/UO:0000009,,,,,,,,,,
+,CO_369:0000016,FoSDM_FoSMmsr_kg,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001015,Forage subsample dry mass,Agronomic,The total dry mass recorded on a subsample of the entire biomass,,FoSDM,,Forage,subsample dry mass,Recommended,,CO_369:0002015,Forage subsample mass measurement,Measurement,"Description: Record the mass of a forage subsample.
+
+ Materials: digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a subsample of forage from a larger pool of forage
+ 2. For fresh forage mass measurement, place the subsample on the scale and record the weight at the time of or shortly after harvesting.
+ 3. For dry forage mass measurement, dry the subsample in a drying oven until constant weight, place the material on a scale, and record the weight.",,,CO_369:0003015,kilogram,Numerical,,,,UO:0000009,,,,,,,,,,
+,CO_369:0000017,FoSFM_FoSMmsr_kg,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001016,Forage subsample fresh mass,Agronomic,The total fresh mass recorded on a subsample of the total biomass,,FoSFM,,Forage,subsample fresh mass,Recommended,,CO_369:0002015,Forage subsample mass measurement,Measurement,"Description: Record the mass of a forage subsample.
+
+ Materials: digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a subsample of forage from a larger pool of forage
+ 2. For fresh forage mass measurement, place the subsample on the scale and record the weight at the time of or shortly after harvesting.
+ 3. For dry forage mass measurement, dry the subsample in a drying oven until constant weight, place the material on a scale, and record the weight.",,,CO_369:0003015,kilogram,Numerical,,,,UO:0000009,,,,,,,,,,
+,CO_369:0000018,FoYld_FoYldArcmp_kg/m2,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-23 00:00:00,EN,Sainfoin,CO_369:0001017,Forage yield,Agronomic,The total mass of forage harvested or sampled relative to some other value,,FoYld,,Forage,yield,Recommended,,CO_369:0002016,Forage yield per area computation,Computation,"Description: Calculate the total mass of forage harvested per unit area.
+
+ Materials: tape measure; scale;
+
+ Dependent_on: Forage fresh mass msr [kg] | Forage dry mass msr [kg]; Plot area msr [m2];
+
+ Protocol:
+ 1. Record the weight for forage fresh mass or forage dry mass.
+ 2. Divide the mass by the total area of the harvested plot.",,,CO_369:0003017,kilogram per square meter,Numerical,,,,UO:0000086,,,,,,,,,,
+,CO_369:0000019,InfL_InfLmsr_mm,,,"P3,P2",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001018,Inflorescence length,Morphological,The total length of the inflorescence usually measured from the proximal end of the peduncle to the distal end of the growing apex,,InfL,,Inflorescence,length,Recommended,,CO_369:0002017,Inflorescence length measurement,Measurement,"Description: Record the average inflorescence length
+
+ Materials: metric ruler or tape measure
+
+ Dependent_on: Inflorescence number cnt [n]
+
+ Protocol:
+ 1. Sample inflorescences according to your sampling protocol
+ 2. Measure each inflorescence by laying it out on a flat surface and recording the length in mm from the proximal end of the peduncle to the distal end of raceme.
+ 3. If measuring one inflorescence, report the length. If measuring multiple, report the average length of all inflorescences measured.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000020,InfN_InfNcnt_n,,,F2,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001019,Inflorescence number,Agronomic,The total number of inflorescences observed or sampled,,InfN,,Inflorescence,number,Recommended,,CO_369:0002018,Inflorescence number counting,Counting,"Description: Record the total number of inflorescences
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Collect inflorescences according to your sampling protocol
+ 2. Count the total number of inflorescences.
+ 3. Express as an integer.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000021,LfChlA_ChlAmsr_mg/g,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001020,Leaflet chlorophyll a content,Agronomic,The total chlorophyll A content in a leaflet,,LfChlA,,Leaflet,chlorophyll a content,Recommended,,CO_369:0002019,Leaf chlorophyll A content measurement,Measurement,"Description: Determine the concentration of chlorophyll A in a leaf sample
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See protocol in http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",,"Determination of accurate extinction coefficients and simultaneous equations for assaying chlorophylls a and b extracted with four different solvents: verification of the concentration of chlorophyll standards by atomic absorption spectroscopy. R.J. Porra, W.A. Thompson, P.E. Kriedmann. Biochimica et Biophysica Acta, 975 (1989) 384-394 http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",CO_369:0003020,milligram per gram,Numerical,,,,UO:0000022/UO:0000021,,,,,,,,,,
+,CO_369:0000022,LfChlB_ChlBmsr_mg/g,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001021,Leaflet chlorophyll b content,Agronomic,The total chlorophyll B content in a leaflet,,LfChlB,,Leaflet,chlorophyll b content,Recommended,,CO_369:0002020,Leaf chlorophyll B content measurement,Measurement,"Description: Determine the concentration of chlorophyll B in a leaf sample
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See protocol in http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",,"Determination of accurate extinction coefficients and simultaneous equations for assaying chlorophylls a and b extracted with four different solvents: verification of the concentration of chlorophyll standards by atomic absorption spectroscopy. R.J. Porra, W.A. Thompson, P.E. Kriedmann. Biochimica et Biophysica Acta, 975 (1989) 384-394 http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",CO_369:0003020,milligram per gram,Numerical,,,,UO:0000022/UO:0000021,,,,,,,,,,
+,CO_369:0000023,LfL_LfLmsr_mm,,breeding selection,E1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001022,Leaflet length,Morphological,The length of leaflets measured from the proximal margin of the leaflet to the distal margin of the leaf.,,LfL,,Leaflet,length,Recommended,,CO_369:0002022,Leaflet length measurement,Measurement,"Description: Record the average leaflet length
+
+ Materials: metric ruler or tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a compound leaf according to your sampling protocol.
+ 2. Measure the length of 5 leaflets on each compound leaf - 2 from either side of the compound leaf and the terminal leaflet.
+ 3. Start at the proximal base of the leaflet margin and measure until the distal margin of the leaf along the central axis.
+ 4. Record the average length of all 5 leaflets.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000024,LfL_LfLprd_mm,,,E1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001022,Leaflet length,Morphological,The length of leaflets measured from the proximal margin of the leaflet to the distal margin of the leaf.,,LfL,,Leaflet,length,Recommended,,CO_369:0002023,Leaflet length prediction,Prediction,"Description: Measure the average leaflet length
+
+ Materials: Image analysis software, OpenCV scripts, etc.
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a compound leaf according to your sampling protocol.
+ 2. Select 5 leaflets on each compound leaf - 2 from either side of the compound leaf and the terminal leaflet.
+ 3. Lay all 5 leaflets out on a flatbed scanner or photography light table with either a known scale or a scale included in the scene and acquire an image.
+ 4. Use image processing to extract the length of the rotated bounding box of each leaflet.
+ 5. Convert from pixels to mm using the known scale.
+ 6. Report the average length in mm for all 5 leaflets.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000025,LfSPAD_CLSPADmsr_idx,leaf SPAD,breeding selection,E1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001023,Leaflet SPAD,Agronomic,The SPAD value for a leaflet or group of leaflets.,,LfSPAD,,Leaflet,SPAD,Recommended,,CO_369:0002024,Leaflet SPAD measurement,Measurement,"Description: Measurement of the average SPAD value of leaflets on a compound leaf
+
+ Materials: SPAD meter
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a compound leaf according to your sampling protocol.
+ 2. Take SPAD readings on a total of 5 leaflets on the compound leaf - 2 from either side of the compound leaf and the terminal leaflet.
+ 3. Record the average SPAD value of all 5 leaflets as the SPAD value for the compound leaf.
+ 4. See notes in https://pubmed.ncbi.nlm.nih.gov/17342446/",,"Evaluating the relationship between leaf chlorophyll concentration and SPAD-502 chlorophyll meter readings. J Uddling, J Gelang-Alfredsson, K Piikki, H Pleijel. Phoyosynth Res. 2007 Jan; 91(1):37-46. doi: 10.1007/s11120-006-9077-5. https://pubmed.ncbi.nlm.nih.gov/17342446/",CO_369:0003014,index,Numerical,,,,,,,,,,,,,,
+,CO_369:0000026,LfChl_ChlTotmsr_mg/g,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001024,Leaflet total chlorophyll content,Agronomic,The total chlorophyll content in a leaflet,,LfChl,,Leaflet,total chlorophyll content,Recommended,,CO_369:0002021,Leaf total chlorophyll content measurement,Measurement,"Description: Determine the concentration of total chlorophyll in a leaf sample
+
+ Materials: See protocol
+
+ Dependent_on:
+
+ Protocol:
+ 1. See protocol in http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",,"Determination of accurate extinction coefficients and simultaneous equations for assaying chlorophylls a and b extracted with four different solvents: verification of the concentration of chlorophyll standards by atomic absorption spectroscopy. R.J. Porra, W.A. Thompson, P.E. Kriedmann. Biochimica et Biophysica Acta, 975 (1989) 384-394 http://www.chem.ucla.edu/dept/Faculty/merchant/pdf/porra_et_al_1989.pdf",CO_369:0003020,milligram per gram,Numerical,,,,UO:0000022/UO:0000021,,,,,,,,,,
+,CO_369:0000027,LfW_LfWmsr_mm,,,E1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001025,Leaflet width,Morphological,"The width of a leaflet, orthogonal to the main leaflet axis when measured at the widest point.",,LfW,,Leaflet,width,Recommended,,CO_369:0002025,Leaflet width measurement,Measurement,"Description: Record the average leaflet width
+
+ Materials: metric ruler or tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a compound leaf according to you sampling protocol
+ 2. Measure the length of 5 leaflets on the compound leaf - 2 from either side of the compound leaf and the terminal leaflet.
+ 3. Starting at the widest portion of the leaflet, measure from one leaflet margin to the margin on the opposite edge, orthogonal to the central axis.
+ 4. Record the average width of all 5 leaflets.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000028,LfW_LfWprd_mm,,,E1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001025,Leaflet width,Morphological,"The width of a leaflet, orthogonal to the main leaflet axis when measured at the widest point.",,LfW,,Leaflet,width,Recommended,,CO_369:0002026,Leaflet width prediction,Prediction,"Description: Measure the average leaflet width
+
+ Materials: Image analysis software, OpenCV scripts, etc.
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select a compound leaf according to your sampling protocol.
+ 2. Select 5 leaflets on each compound leaf - 2 from either side of the compound leaf and the terminal leaflet.
+ 3. Lay all 5 leaflets out on a flatbed scanner or photography light table with either a known scale or a scale included in the scene and acquire an image.
+ 4. Use image processing to extract the width of the rotated bounding box of each leaflet.
+ 5. Convert from pixels to mm using the known scale.
+ 6. Report the average width in mm for all 5 leaflets.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000029,FrAR_ARmsr_ratio,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001026,Legume fruit aspect ratio,Morphological,The ratio of the legume fruit bounding box width to its height.,,FrAR,,Legume fruit,aspect ratio,Recommended,,CO_369:0002035,Object aspect ratio measurement,Measurement,"Description: Calculate the ratio of the objects bounding box width to its height
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Create a bounding box around a segmented object using cv.boundingrect(obj).
+ 2. Extract the bounding box width and height.
+ 3. Express the aspect ratio as the width/height.
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",AR=frac{width}{height},,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000030,FrCol_Colmsr_HSV,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001027,Legume fruit color,Morphological,"The average color of a legume fruit or group of legume fruits from a plant, expressed as a vector of float values in the color model of choice such as RGB or HSV.",,FrCol,,Legume fruit,color,Recommended,,CO_369:0002036,Object color measurement,Measurement,"Description: Calculate the average color of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. After segmenting the image using basic image processing algorithms, select objects using cv.findContours() etc.
+ 2. Find the average of all pixels in the contour
+ 3. Express as a vector of HSV values.",,,CO_369:0003013,HSV,Code,,,,,,,,,,,,,,
+,CO_369:0000031,FrCD_CDmsr_μm,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001028,Legume fruit convexity defect,Morphological,The average length of the three largest convexity defects on the dried legume fruit crest,,FrCD,,Legume fruit,convexity defect,Recommended,,CO_369:0002037,Object convexity defect measurement,Measurement,"Description: Calculate the average length of a convexity defect in an image
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. See examples at https://theailearner.com/2020/11/09/convexity-defects-opencv/",,,CO_369:0003031,micrometer,Numerical,,,,UO:0000017,,,,,,,,,,
+,CO_369:0000032,FrEqD_EqDmsr_mm,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001029,Legume fruit equivalent diameter,Morphological,The diameter of a circle of equivalent area to the area of the legume fruit,,FrEqD,,Legume fruit,equivalent diameter,Recommended,,CO_369:0002038,Object equivalent diameter measurement,Measurement,"Description: Calculate the equivalent diameter of an image object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000033,FrEx_Exmsr_ratio,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001030,Legume fruit extent,Morphological,The ratio of the legume fruit contour area to the bounding box area.,,FrEx,,Legume fruit,extent,Recommended,,CO_369:0002039,Object extent measurement,Measurement,"Description: Calculate the object extent
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Retrieve the total area of an object in an image
+ 2. Create a bounding box around the image with cv.boundingRect()
+ 3. Compute the extent as the ratio between the object area and the bounding box area.
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000034,FrL_Lmsr_mm,,,PH1,Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001031,Legume fruit length,Morphological,The length of a legume fruit along its main axis.,,FrL,,Legume fruit,length,Recommended,,CO_369:0002040,Object length measurement,Measurement,"Description: Calculate an objects length
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Fit either an ellipse or a rotated bounding box(cv.minAreaRect()) to an object.
+ 2. Export the object length as either the length of the major axis (ellipse) or the longer side of the rotated bounding box.
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000035,FrM_FrMmsr_g,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-08 00:00:00,EN,Sainfoin,CO_369:0001032,Legume fruit mass,Agronomic,The total mass of the sampled fruit,,FrM,,Legume fruit,mass,Recommended,,CO_369:0002027,Legume fruit mass measurement,Measurement,"Description: Record the total mass of a sample of legume fruits.
+
+ Materials: plot combine; laboratory seed thresher; column seed blower; digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Harvest legume fruits according to your sampling protocol.
+ 2. Dry the harvested material.
+ 3. Thresh the fruits off of the stems with a laboratory scale seed thresher (Wintersteiger LD 350).
+ 4. Clean the fruit by using a column seed blower or running the fruit through the seed thresher a second time.
+ 5. Record the total weight of the cleaned fruit.",,,CO_369:0003007,gram,Numerical,,,,UO:0000021,,,,,,,,,,
+,CO_369:0000036,FrN_FrNRacmp_n/Ra,,,"P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-07 00:00:00,EN,Sainfoin,CO_369:0001033,Legume fruit number,Agronomic,The total number of fruit either as a standalone count or expressed relative to another body,,FrN,,Legume fruit,number,Recommended,,CO_369:0002029,Legume fruit number per raceme computation,Computation,"Description: Record the total number of legume fruits per raceme.
+
+ Materials: mechanical or digital hand-held counter;
+
+ Dependent_on: Legume fruit number cnt [n]; Raceme number cnt [n];
+
+ Protocol:
+ 1. Sample racemes according to your sampling protocol.
+ 2. Place the racemes into a pollination bag.
+ 3. In the lab, strip the fruit from each raceme.
+ 4. Count and record the total number of fruit.
+ 5. Divide the total number of fruit by the number of racemes sampled",,,CO_369:0003025,number per raceme,Numerical,,,,UO:0000189/PO:0030115,,,,,,,,,,
+,CO_369:0000037,FrN_FrNcnt_n,,,"P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001033,Legume fruit number,Agronomic,The total number of fruit either as a standalone count or expressed relative to another body,,FrN,,Legume fruit,number,Recommended,,CO_369:0002028,Legume fruit number counting,Counting,"Description: Record the total number of legume fruit observed.
+
+ Materials: mechanical or digital hand held counter;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample legume fruits according to your sampling protocol.
+ 2. Count and record the total number of legume fruit in a sample regardless of the presence/absence of a seed inside the fruit.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000038,FrP_Pmsr_mm,,,PH1,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001034,Legume fruit perimeter,Morphological,The perimeter of the 2-D projected contour of a legume fruit.,,FrP,,Legume fruit,perimeter,Recommended,,CO_369:0002041,Object perimeter measurement,Measurement,"Description: Calculate the perimeter of an object in an image
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find object contour using cv.findContours()
+ 2. Record perimeter of contours as cv.arcLength(cont)
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000039,FrPA_PAmsr_mm2,,,PH1,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001035,Legume fruit projected area,Morphological,The area of a legume fruit as projected onto the 2-D surface of the image plane.,,FrPA,,Legume fruit,projected area,Recommended,,CO_369:0002042,Object projected area measurement,Measurement,"Description: Calculate the projected area of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find an object contour using cv.findContours()
+ 2. Export the contour area as cv.contourArea()
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003022,square millimeter,Numerical,,,,UO:0000082,,,,,,,,,,
+,CO_369:0000040,FrSol_Solmsr_ratio,,,PH1,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001036,Legume fruit solidity,Morphological,The ratio of a legume fruits contour area to its convex hull area.,,FrSol,,Legume fruit,solidity,Recommended,,CO_369:0002043,Object solidity measurement,Measurement,"Description: Calculate an objects solidity
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find object contour using cv.findContours()
+ 2. Get object convex hull using cv.convexHull()
+ 3. Get the object area using cv.contourArea()
+ 4. Express solidity as the ratio between the object area and the convex hull area.
+ 5. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000041,FrW_Wmsr_mm,,,PH1,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-13 00:00:00,EN,Sainfoin,CO_369:0001037,Legume fruit width,Morphological,The width of a legume fruit along its minor axis orthogonal to the main axis along the image plane,,FrW,,Legume fruit,width,Recommended,,CO_369:0002044,Object width measurement,Measurement,"Description: Calculate the width of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Fit a rotated bounding box or an ellipse to an image object
+ 2. Record the object width as the minor axis length of the ellipse or the length of the smaller side of a rotated bounding box",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000042,FrYld_FrYldArcmp_g/m2,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-07 00:00:00,EN,Sainfoin,CO_369:0001038,Legume fruit yield,Agronomic,The total mass of the sampled fruit divided by an amount of some other entity,,FrYld,,Legume fruit,yield,Recommended,,CO_369:0002030,Legume fruit yield per area computation,Computation,"Description: Compute the total yield of sainfoin fruits per unit area
+
+ Materials:
+
+ Dependent_on: Legume fruit mass msr [g], Plot area msr [m2]
+
+ Protocol:
+ 1. After harvesting a legume fruit sample and recording the mass, record the total plot area that the legume fruits were harvested from.
+ 2. Divide the fruit mass by the area, and express yield in g/m2",,,CO_369:0003009,gram per square meter,Numerical,,,,UO:0010049,,,,,,,,,,
+,CO_369:0000043,FrYld_FrYldPlcmp_g/Pl,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-07 00:00:00,EN,Sainfoin,CO_369:0001038,Legume fruit yield,Agronomic,The total mass of the sampled fruit divided by an amount of some other entity,,FrYld,,Legume fruit,yield,Recommended,,CO_369:0002031,Legume fruit yield per plant computation,Computation,"Description: Compute the total yield of legume fruit per plant
+
+ Materials: clippers, bundle thresher, sieves/blower columns, laboratory balance
+
+ Dependent_on: Legume fruit mass msr [g], Plant number cnt [n]
+
+ Protocol:
+ 1. Divide the total mass of a sample of legume fruit by the number of plants they were sampled from.
+ 2. Express yield as g/plant",,,CO_369:0003010,gram per plant,Numerical,,,,UO:0000021/PO:0000003,,,,,,,,,,
+,CO_369:0000044,FrYld_FrYldRacmp_g/Ra,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-07 00:00:00,EN,Sainfoin,CO_369:0001038,Legume fruit yield,Agronomic,The total mass of the sampled fruit divided by an amount of some other entity,,FrYld,,Legume fruit,yield,Recommended,,CO_369:0002032,Legume fruit yield per raceme computation,Computation,"Description: Compute the total yield of legume fruit per raceme
+
+ Materials: laboratory balance
+
+ Dependent_on: Legume fruit mass msr [g], Raceme number cnt [n]
+
+ Protocol:
+ 1. Sample racemes according to your sampling protocol.
+ 2. Strip the fruit of the raceme into a pan.
+ 3. Weigh the fruit.
+ 4. Divide the fruit mass by the number of racemes to express fruit yield in g/raceme.",,,CO_369:0003011,gram per raceme,Numerical,,,,UO:0000021/PO:0030115,,,,,,,,,,
+,CO_369:0000045,FrYld_FrYldArcmp_kg/ha,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001038,Legume fruit yield,Agronomic,The total mass of the sampled fruit divided by an amount of some other entity,,FrYld,,Legume fruit,yield,Recommended,,CO_369:0002030,Legume fruit yield per area computation,Computation,"Description: Compute the total yield of sainfoin fruits per unit area
+
+ Materials:
+
+ Dependent_on: Legume fruit mass msr [g], Plot area msr [m2]
+
+ Protocol:
+ 1. After harvesting a legume fruit sample and recording the mass, record the total plot area that the legume fruits were harvested from.
+ 2. Divide the fruit mass by the area, and express yield in g/m2",,,CO_369:0003016,kilogram per hectare,Numerical,,,,UO:0000283,,,,,,,,,,
+,CO_369:0000046,PcpM_PcpMmsr_mg,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001039,Pericarp mass,Agronomic,The total mass of the legume fruit pericarp.,,PcpM,,Pericarp,mass,Recommended,,CO_369:0002047,Pericarp mass measurement,Measurement,"Description: Measure the mass of fruit pericarps
+
+ Materials: laboratory balance;
+
+ Dependent_on:
+
+ Protocol:
+ 1. For one plant or one stem, remove all of the fruit.
+ 2. For each fruit, remove the pericarp from the fruit.
+ 3. Place the pericarps together and weigh.",,,CO_369:0003019,milligram,Numerical,,,,UO:0000022,,,,,,,,,,
+,CO_369:0000047,PlDDTF_DTFcmp_days,,breeding selection,"B2,F1,F2",Recommended,"Evolution of yield and quality of sainfoin (Onobrychis viciifolia Scop.) in the spring growth cycle. Giorgio Borreani, Pier Peiretti, Ernesto Tabacco. Agronomie 23 (2003) 193–201. DOI:10.1051/agro:2002082","Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001040,Plant defoliation DTF,Phenological,The time it takes in days for a plant or group of plants to flower starting from a defoliation event.,,PlDDTF,DTF,Plant,defoliation DTF,Recommended,,CO_369:0002006,Defoliation DTF computation,Computation,"Description: Record the days to flowering (DTF) post defoliation
+
+ Materials:
+
+ Dependent_on: Plant defoliation event date msr [ISO 8601], Plant flowering date est [ISO 8601]
+
+ Protocol:
+ 1. Record the number of days that have elapsed from the defoliation event date to the flowering date.
+ 2. Express DTF as an integer.",,,CO_369:0003005,day,Duration,,,,UO:0000033,,,,,,,,,,
+,CO_369:0000048,PlDFDate_DFmsr_date,,,"E1,B1,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-25 00:00:00,EN,Sainfoin,CO_369:0001041,Plant defoliation event date,Agronomic,The date at which a plant or plot of established plants was defoliated either by swathing or seed harvesting,,PlDFDate,,Plant,defoliation event date,Recommended,,CO_369:0002005,Defoliation date measurement,Measurement,"Description: Record the date at which a plant or plot was defoliated
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Record the ISO 8601 date at which a plant or plot was defoliated",,,CO_369:0003004,date,Date,,,,,,,,,,,,,,
+,CO_369:0000049,PlEDTF_DTFcmp_days,,,"F1,F2",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-25 00:00:00,EN,Sainfoin,CO_369:0001042,Plant emergence DTF,Phenological,The time it takes in days for a plant or group of plants to flower starting from the seedling emergence date,,PlEDTF,DTF,Plant,emergence DTF,Recommended,,CO_369:0002076,Seedling emergence DTF computation,Computation,"Description: Record the days to flowering (DTF) post seedling emergence
+
+ Materials:
+
+ Dependent_on: Seedling emergence date est [ISO 8601], Plant flowering date est [ISO 8601]
+
+ Protocol:
+ 1. Record the number of days that have elapsed from the seedling emergence date to the flowering date.
+ 2. Express DTF as an integer.",,,CO_369:0003005,day,Duration,,,,UO:0000033,,,,,,,,,,
+,CO_369:0000050,PlFlg_FlgPctcmp_%,,,"F1,F2",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001043,Plant flowering,Agronomic,The percentage of plants in a plot or group of plants that are flowering.,,PlFlg,,Plant,flowering,Recommended,,CO_369:0002012,Flowering percentage computation,Computation,"Description: Compute the percentage of plants in a plot that are flowering
+
+ Materials:
+
+ Dependent_on: Plant number cnt [n]
+
+ Protocol:
+ 1. Count the number of plants in a plot that have at least one flower.
+ 2. Divide by the total number of plants in the plot.
+ 3. Express as a percentage.",,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000051,PlFlgDate_FlgDateest_date,,,"F1,F2",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001044,Plant flowering date,Phenological,The flowering date of a plant or a group of plants.,,PlFlgDate,,Plant,flowering date,Recommended,,CO_369:0002011,Flowering date estimation,Estimation,"Description: Record the date at which 50% of all plants have at least one flower.
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For each plant, plot, or group of plants, record the date at which 50% of all plants have at least one flower.",,,CO_369:0003004,date,Date,,,,,,,,,,,,,,
+,CO_369:0000052,PlGrS_PGrSest_PGrS scale,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-07-06 00:00:00,EN,Sainfoin,CO_369:0001045,Plant growth stage,Morphological,The current growth stage of a plant or the average growth stage of a group of plants or plot,,PlGrS,,Plant,growth stage,Recommended,,CO_369:0002048,Plant growth stage estimation,Estimation,"Description: Estimate the growth stage of a plant or set of plants
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, match the current stage of plant growth to the descriptions in the plant growth stage categories.
+ 2. For a group of plants, match the average growth stage of all the plants to the most representative category.",,,CO_369:0003027,plant growth stage scale,Nominal,,,,,Em=Seedling emergence,V1=Vegetative stage - no elongated stems,E1=Vegetative stage - stem elongation,B1=Early bud: 1 to 2 nodes with buds, no flowers or seed pods=B2,Late bud: > 2 nodes with buds= no flowers or seed pods,F1=Early flowering: one node with one open flower, no seed pods=F2,Peak/Late Flowering: >= 2 nodes with open flower= no seed pods,P1=Early seed pod: 1 to 3 nodes with green seed pods
+,CO_369:0000053,PlMSC_MSCcmp_PGrS scale,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-27 00:00:00,EN,Sainfoin,CO_369:0001046,Plant mean stage count,Phenological,The weighted average growth stage of a sample of stems,,PlMSC,,Plant,mean stage count,Recommended,,CO_369:0002049,Plant mean stage count computation,Computation,"Description: The average stage of development for a group of plants or plant canopy
+
+ Materials:
+
+ Dependent_on: Plant growth stage est {PGrS Scale]; Stem number cnt [n];
+
+ Protocol:
+ 1. Sample stems according to your sampling protocol.
+ 2. Tally the number of stems in that fall into each category.
+ 3. Over all indices from the lowest growth stage index to the highest index, sum the product of the growth stage index and the number of stems in that growth stage divided by the number of stems.",MSC=sum_{i=0}^{n} (S*N)/C,"Quantifying Morphological Development of Alfalfa for Studies of Herbage Quality. Bernard A. Kalu and Gary W. Fick. Crop Science , Vol 21, March-April 1981",CO_369:0003027,plant growth stage scale,Nominal,,,,,Em=Seedling emergence,V1=Vegetative stage - no elongated stems,E1=Vegetative stage - stem elongation,B1=Early bud: 1 to 2 nodes with buds, no flowers or seed pods=B2,Late bud: > 2 nodes with buds= no flowers or seed pods,F1=Early flowering: one node with one open flower, no seed pods=F2,Peak/Late Flowering: >= 2 nodes with open flower= no seed pods,P1=Early seed pod: 1 to 3 nodes with green seed pods
+,CO_369:0000054,PlN_PlNcnt_n,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001047,Plant number,Agronomic,The total number of plants observed.,,PlN,,Plant,number,Recommended,,CO_369:0002051,Plant number counting,Counting,"Description: Record the total number of plants in a group or sample
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Count all sampled plants, all the plants in one plot/sward, or all the plants in a row.
+ 2. Express as an integer.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000055,PlODTF_DTFcmp_days,,,"F1,F2",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-27 00:00:00,EN,Sainfoin,CO_369:0001048,Plant ordinal DTF,Phenological,The time it takes in days for a plant or group of plants to flower starting from January 1st of a given year.,,PlODTF,,Plant,ordinal DTF,Recommended,,CO_369:0002045,Ordinal DTF computation,Computation,"Description: Record the ordinal days to flowering (DTF) from January 1st
+
+ Materials:
+
+ Dependent_on: January 1st [ISO 8601], Plant flowering date est [ISO 8601]
+
+ Protocol:
+ 1. Record the integer number of days that have elapsed between the plant flowering date and January 1st on a given year.",,,CO_369:0003005,day,Duration,,,,UO:0000033,,,,,,,,,,
+,CO_369:0000056,PlRGDate_RGest_date,,,V1,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-25 00:00:00,EN,Sainfoin,CO_369:0001049,Plant regrowth date,Phenological,The ISO 8601 date that established plants have new spring regrowth after a dormant period,,PlRGDate,,Plant,regrowth date,Recommended,,CO_369:0002077,Spring regrowth date estimation,Estimation,"Description: Estimate the date of the appearance of spring regrowth of established plants in a plot
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, plot, or group of established plants, record the date when 50% of the plants have new spring growth.",,,CO_369:0003004,date,Date,,,,,,,,,,,,,,
+,CO_369:0000057,PlStEr_StErest_SE0-9,,,"F2,P1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-09 00:00:00,EN,Sainfoin,CO_369:0001050,Plant stem erectness,Morphological,"The proportion of plants within a sampled plot/sward that are resistant to stem lodging, i.e. have stem angles > 45 degrees.",,PlStEr,,Plant,stem erectness,Recommended,,CO_369:0002078,Stem erectness estimation,Estimation,"Description: Estimate the erectness of stems in a plant or plot of plants
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Estimate the percentage of stems that have a mean angle greater than 45 degrees from the ground.
+ 2. Record the stem erectness as the number bin (0-9) that contains the estimated percentage.",,,CO_369:0003029,stem erectness 0-9,Ordinal,,,,,,,,,,,,,,
+,CO_369:0000058,PlWKD_WKest_WKD1-5,,,Do,Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001051,Plant winter kill damage,Agronomic,The winter damage observed on a plant or group of plants,,PlWKD,,Plant,winter kill damage,Recommended,,CO_369:0002082,Winter kill estimation,Estimation,"Description: Estimate the winter kill damage of a plant or plot
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Observe winter kill of a single plant or the average damage of plants in a plot and rate it on the winter kill damage scale",,NEED TITLE OF REFERENCE FOR THIS METHOD.,CO_369:0003030,winter kill damage 1-5,Ordinal,,,,,1=None (N),2=Trace (T),3=Slight (S),4=Moderate (M),5=Very Severe (VS),,,,,
+,CO_369:0000059,PlPctWS_WSest_%,,,V1,Recommended,,Adana Alparslan Türkeş Science and Technology University - 013z3yn41,Muhammet Sakirgolu - 0000-0002-7024-4348,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001052,Plant winter survival,Agronomic,The amount of plants that survived the winter and regrow in the spring,,PlPctWS,,Plant,winter survival,Recommended,,CO_369:0002083,Winter survival estimation,Estimation,"Description: Estimate the winter survival of a plot of plants
+
+ Materials:
+
+ Dependent_on: Plant number cnt [n]
+
+ Protocol:
+ 1. For each plot or group of plants, count the number of plants that have regrowth in the spring.
+ 2. Divide the number of plants with regrowth by the total number of plants in the plot
+ 3. Express as a percentage.",,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000060,PtAr_PtArmsr_m2,,,"V1,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-07-08 00:00:00,EN,Sainfoin,CO_369:0001053,Plot area,Morphological,The total area of an experimental plot,,PtAr,,Plot,area,Recommended,,CO_369:0002052,Plot area measurement,Measurement,"Description: Measure the total area of a plot
+
+ Materials: tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find the corner of the plot.
+ 2. Record the actual length and width of the plot.
+ 3. Multiply and express in square units of length or in some standard area unit.",,,CO_369:0003018,square meter,Numerical,,,,UO:0000080,,,,,,,,,,
+,CO_369:0000061,RaL_RaLmsr_cm,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001054,Raceme length,Morphological,"The total length of a single raceme, or the mean length of several racemes",,RaL,,Raceme,length,Recommended,,CO_369:0002053,Raceme length measurement,Measurement,"Description: Measure the length of a raceme
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select one inflorescence, starting at the proximal end, search for the most proximal flower or flower scar and use this as a starting point.
+ 2. Measure the distance from the starting point to the distal end of the inflorescence.
+ 3. Record this length as the raceme length.
+ 4. Repeat for as many racemes as necessary and take the average raceme length.",,,CO_369:0003003,centimeter,Numerical,,,,UO:0000015,,,,,,,,,,
+,CO_369:0000062,RaN_RaNPlcmp_n/Pl,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001055,Raceme number,Agronomic,"The total number of racemes counted, estimated, or observed",,RaN,,Raceme,number,Recommended,,CO_369:0002055,Raceme number per plant computation,Computation,"Description: Compute the number of racemes per plant
+
+ Materials:
+
+ Dependent_on: Raceme number cnt [n], Plant number cnt [n]
+
+ Protocol:
+ 1. Sample plants according to your sampling protocol
+ 2. Set aside each stem on each plant and quickly tally all the racemes
+ 3. Record the total number of racemes counted and divided by the total number of plants harvested/sampled.",,,CO_369:0003024,number per plant,Numerical,,,,UO:0000189/PO:0000003,,,,,,,,,,
+,CO_369:0000063,RaN_RaNStcmp_n/St,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-07 00:00:00,EN,Sainfoin,CO_369:0001055,Raceme number,Agronomic,"The total number of racemes counted, estimated, or observed",,RaN,,Raceme,number,Recommended,,CO_369:0002056,Raceme number per stem computation,Computation,"Description: Compute the number of racemes per stem
+
+ Materials:
+
+ Dependent_on: Raceme number cnt [n], Stem number cnt [n]
+
+ Protocol:
+ 1. For one plant, sample stems according to your sampling protocol.
+ 2. Count the number of racemes on each stem.
+ 3. Divide the number of racemes by the number of stems sampled.",,,CO_369:0003026,number per stem,Numerical,,,,UO:0000189/PO:0009047,,,,,,,,,,
+,CO_369:0000064,RaN_RaNcnt_n,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-08 00:00:00,EN,Sainfoin,CO_369:0001055,Raceme number,Agronomic,"The total number of racemes counted, estimated, or observed",,RaN,,Raceme,number,Recommended,,CO_369:0002054,Raceme number counting,Counting,"Description: Count the total number of racemes
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample racemes according to your sampling protocol
+ 2. Count all racemes and express as an integer",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000065,Sd1KK_SdMmsr_g,,,P3,Recommended,https://open.alberta.ca/dataset/72cfb3d9-cf69-4282-81e8-a53cab3d1ce7/resource/8d2b338b-853a-4e42-bd98-5b19d8b8d43a/download/100_22-1.pdf,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001056,Seed 1000K weight,Agronomic,The total mass of 1000 seeds at XX% moisture content,,Sd1KK,,Seed,1000K weight,Recommended,,CO_369:0002062,Seed mass measurement,Measurement,"Description: Record the total mass of a sample of seeds.
+
+ Materials: cleaned fruit; laboratory seed cleaner/dehuller; digital scale;
+
+ Dependent_on: Seed moisture content [%]
+
+ Protocol:
+ 1. Sample fruit according to your sampling protocol
+ 2. Place cleaned fruit into the seed cleaning/dehulling machine (Haldrup LT15).
+ 3. Process the fruits until the majority of the pericarps have been removed.
+ 4. Place the cleaned seed onto a laboratory scale and record the mass in the appropriate units.
+ 5. Report seed mass at seed moisture content.",,,CO_369:0003007,gram,Numerical,,,,UO:0000021,,,,,,,,,,
+,CO_369:0000066,SdAC_ACmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001057,Seed ash content,Quality,The ash content of a sample of seeds,,SdAC,,Seed,ash content,Recommended,,CO_369:0002057,Seed ash content measurement,Measurement,"Description: Measure the total ash content of seed flour by incinerating in a muffle furnace
+
+ Materials: muffle furnace with pyrometer and temperature control; broad shallow ashing dish; scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Weigh 3-5 +/- 0.0001 g of well mixed sample into ashing dish that has been ignited, cooled in desiccator, and weighed soon after attaining room temperature.
+ 2. Place in muffle furnace at 550F for soft wheat flours or 575-590 for hard wheat flours. Incinerate until light gray ash is obtained or to constant weight. Ash must not be allowed to fuse. Cool in desiccator and weigh soon after room temperature is attained.
+ 3. See AACC 08-01.01",SdAC= frac{weight_{residue}}{weight_{sample}}cdot 100,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000067,SdAR_ARmsr_ratio,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001058,Seed aspect ratio,Morphological,The ratio of the seed bounding box width to its height.,,SdAR,,Seed,aspect ratio,Recommended,,CO_369:0002035,Object aspect ratio measurement,Measurement,"Description: Calculate the ratio of the objects bounding box width to its height
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Create a bounding box around a segmented object using cv.boundingrect(obj).
+ 2. Extract the bounding box width and height.
+ 3. Express the aspect ratio as the width/height.
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",AR=frac{width}{height},,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000068,SdCC_CCcmp_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001059,Seed carbohydrate content,Quality,The carbohydrate content of a sample of seeds,,SdCC,,Seed,carbohydrate content,Recommended,,CO_369:0002058,Seed carbohydrate content computation,Computation,"Description: A quick, indirect computation of total seed carbohydrates based.
+
+ Materials:
+
+ Dependent_on: Seed ash content msr [DMB], Seed moisture content msr [%], Seed crude fat content msr [DMB], Seed protein content msr [DMB]
+
+ Protocol:
+ 1. Calculate the seed carbohydrate content according to the formula",SdCC = 100-(Ash+Moisture+Fat+Protein),,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000069,SdCol_Colmsr_HSV,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001060,Seed color,Morphological,"The average color of a seed or group of seeds from a plant, expressed as a vector of float values in the color model of choice such as RGB or HSV.",,SdCol,,Seed,color,Recommended,,CO_369:0002036,Object color measurement,Measurement,"Description: Calculate the average color of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. After segmenting the image using basic image processing algorithms, select objects using cv.findContours() etc.
+ 2. Find the average of all pixels in the contour
+ 3. Express as a vector of HSV values.",,,CO_369:0003013,HSV,Code,,,,,,,,,,,,,,
+,CO_369:0000070,SdCD_CDmsr_μm,"seed convexity defect length, seed hilum depth",,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001061,Seed convexity defect,Morphological,The length of the largest convexity defect of a seeds projected area. Generally located at the seed hilum.,,SdCD,,Seed,convexity defect,Recommended,,CO_369:0002037,Object convexity defect measurement,Measurement,"Description: Calculate the average length of a convexity defect in an image
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. See examples at https://theailearner.com/2020/11/09/convexity-defects-opencv/",,,CO_369:0003031,micrometer,Numerical,,,,UO:0000017,,,,,,,,,,
+,CO_369:0000071,SdCFC_CFCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001062,Seed crude fat content,Quality,The crude fat content of a sample of seeds,,SdCFC,,Seed,crude fat content,Recommended,,CO_369:0002059,Seed crude fat content measurement,Measurement,"Description: Determination of crude fat content in sample by Soxhlet or continuous extraction
+
+ Materials: extractor; filter paper; extraction thimbles 22x80mm; cotton (free from ether extract) or Pyrex glass wool; vacuum oven or vacuum desiccator for nonoxidative drying of sample; petroleum ether (redistilled, BP 30-60F)
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 30-25.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000072,SdDFC_DFCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001063,Seed dietary fiber content,Quality,The dietary fiber content of a sample of seeds.,,SdDFC,,Seed,dietary fiber content,Recommended,,CO_369:0002060,Seed dietary fiber content measurement,Measurement,"Description: Measure the total dietary fiber in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 32-07.01 (method1)
+ 2. See AOAC 991.43 (method2)",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000073,SdEqD_EqDmsr_mm,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001064,Seed equivalent diameter,Morphological,The diameter of a circle of equivalent area to the area of the seed,,SdEqD,,Seed,equivalent diameter,Recommended,,CO_369:0002038,Object equivalent diameter measurement,Measurement,"Description: Calculate the equivalent diameter of an image object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000074,SdEx_Exmsr_ratio,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001065,Seed extent,Morphological,The ratio of the seed contour area to the bounding box area.,,SdEx,,Seed,extent,Recommended,,CO_369:0002039,Object extent measurement,Measurement,"Description: Calculate the object extent
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Retrieve the total area of an object in an image
+ 2. Create a bounding box around the image with cv.boundingRect()
+ 3. Compute the extent as the ratio between the object area and the bounding box area.
+ 4. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000075,SdIC_ICmsr_DMB,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001066,Seed iron content,Quality,The iron content of a sample of seeds,,SdIC,,Seed,iron content,Recommended,,CO_369:0002061,Seed iron content measurement,Measurement,"Description: Measure the iron content in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 40-70.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000076,SdL_Lmsr_mm,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001067,Seed length,Morphological,The length of a seed along its main axis.,,SdL,,Seed,length,Recommended,,CO_369:0002040,Object length measurement,Measurement,"Description: Calculate an objects length
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Fit either an ellipse or a rotated bounding box(cv.minAreaRect()) to an object.
+ 2. Export the object length as either the length of the major axis (ellipse) or the longer side of the rotated bounding box.
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000077,SdM_SdMmsr_g,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001068,Seed mass,Agronomic,The total mass of seeds observed or sampled.,,SdM,,Seed,mass,Recommended,,CO_369:0002062,Seed mass measurement,Measurement,"Description: Record the total mass of a sample of seeds.
+
+ Materials: cleaned fruit; laboratory seed cleaner/dehuller; digital scale;
+
+ Dependent_on: Seed moisture content [%]
+
+ Protocol:
+ 1. Sample fruit according to your sampling protocol
+ 2. Place cleaned fruit into the seed cleaning/dehulling machine (Haldrup LT15).
+ 3. Process the fruits until the majority of the pericarps have been removed.
+ 4. Place the cleaned seed onto a laboratory scale and record the mass in the appropriate units.
+ 5. Report seed mass at seed moisture content.",,,CO_369:0003007,gram,Numerical,,,,UO:0000021,,,,,,,,,,
+,CO_369:0000078,SdMoiC_SdMoiCmsr_%,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001069,Seed moisture content,Quality,The total moisture content of a sample of seeds,,SdMoiC,,Seed,moisture content,Recommended,,CO_369:0002063,Seed moisture content measurement,Measurement,"Description: Determination of moisture content as measured by sample weight loss in an oven under specified conditions.
+
+ Materials: laboratory mill with 18-20 mesh screen; oven capable of maintaining 130F +/- 1F; aluminum moisture dishes 55mm dia and 15mm height; airtight desiccator with activated alumina; analytical balance with mg resolution;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Grind 30-40g of sample in the mill.
+ 2. Mix rapidly with a spoon or spatula and immediately transfer a 2-3g portion to each of two or more tared moisture dishes.
+ 3. Cover and weigh dishes at once.
+ 4. Subtract the tare weights and record weight of sample.
+ 5. Clean mill in between samples.
+ 6. Uncover dishes and place them on shelf of oven. Place covers under the dished.
+ 7. Insert shelf in oven at level of thermometer bulb.
+ 8. Heat for exactly 60 min after the oven recovers its temperature.
+ 9. Remove the shelf and dishes from the over, cover rapidly (using rubber finger insulators) and transfer to desiccator as quickly as possible.
+ 10. Weigh dishes after they reach room temperature (45-60 min usually).
+ 11. Determine loss in weight as moisture.
+ 12. Replicate determinations must be within 0.2% moisture.
+ 13. See AACC 44-15.02","%Moisture=frac{A}{B}cdot100
+
+ A = moisture loss in grams
+ B = original weight of sample in grams",,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000079,SdMoiC_SdMoiCprd_%,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-27 00:00:00,EN,Sainfoin,CO_369:0001069,Seed moisture content,Quality,The total moisture content of a sample of seeds,,SdMoiC,,Seed,moisture content,Recommended,,CO_369:0002064,Seed moisture content prediction,Prediction,"Description: Predict the moisture content of a sample of seeds from NIR spectra
+
+ Materials: handheld NIR spectrometer
+
+ Dependent_on:
+
+ Protocol:
+ 1. Sample seeds according to your sampling protocol.
+ 2. Take NIR measurements with a handheld NIR spectrometer.
+ 3. Predict the moisture content from your NIR standard curves.",,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000080,SdN_SdNRacmp_n/Ra,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001070,Seed number,Agronomic,"The total number of seeds counted, estimated, or observed",,SdN,,Seed,number,Recommended,,CO_369:0002066,Seed number per raceme computation,Computation,"Description: Record the total number of seeds per raceme
+
+ Materials:
+
+ Dependent_on: Seed number cnt [n], Raceme number cnt [n]
+
+ Protocol:
+ 1. Select racemes according to your sampling protocol.
+ 2. Strip the fruit from each raceme and remove the seeds from each fruit.
+ 3. Count and record the number of seeds in each raceme.
+ 4. Divide the total number of seeds by the number of racemes sampled",,,CO_369:0003025,number per raceme,Numerical,,,,UO:0000189/PO:0030115,,,,,,,,,,
+,CO_369:0000081,SdN_SdNcnt_n,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001070,Seed number,Agronomic,"The total number of seeds counted, estimated, or observed",,SdN,,Seed,number,Recommended,,CO_369:0002065,Seed number counting,Counting,"Description: Record the total number of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. In a sample, record the total number of seeds.
+ 2. Express as an integer.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000082,SdP_Pmsr_mm,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001071,Seed perimeter,Morphological,The perimeter of the 2-D projected contour of a seed.,,SdP,,Seed,perimeter,Recommended,,CO_369:0002041,Object perimeter measurement,Measurement,"Description: Calculate the perimeter of an object in an image
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find object contour using cv.findContours()
+ 2. Record perimeter of contours as cv.arcLength(cont)
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000083,SdPAC_PACmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001072,Seed phytic acid content,Quality,The phytic acid content of a sample of seeds,,SdPAC,,Seed,phytic acid content,Recommended,,CO_369:0002067,Seed phytic acid content measurement,Measurement,"Description: Measure the amount of phytic acid in a seed sample
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 40-70.01",,"Analytical Methods for Determination of Phytic Acid and Other Inositol Phosphates: A Review
+ https://doi.org/10.3390/molecules26010174",CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000084,SdPA_PAmsr_mm2,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001073,Seed projected area,Morphological,The area of a seed as projected onto the 2-D surface of the image plane.,,SdPA,,Seed,projected area,Recommended,,CO_369:0002042,Object projected area measurement,Measurement,"Description: Calculate the projected area of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find an object contour using cv.findContours()
+ 2. Export the contour area as cv.contourArea()
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003022,square millimeter,Numerical,,,,UO:0000082,,,,,,,,,,
+,CO_369:0000085,SdPC_PCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001074,Seed protein content,Quality,The protein content of a sample of seeds,,SdPC,,Seed,protein content,Recommended,,CO_369:0002068,Seed protein content measurement,Measurement,"Description: Determination of crude protein content by pyrolysis and combustion.
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 46-30.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000086,SdSol_Solmsr_ratio,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001075,Seed solidity,Morphological,The ratio of a seeds contour area to its convex hull area.,,SdSol,,Seed,solidity,Recommended,,CO_369:0002043,Object solidity measurement,Measurement,"Description: Calculate an objects solidity
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find object contour using cv.findContours()
+ 2. Get object convex hull using cv.convexHull()
+ 3. Get the object area using cv.contourArea()
+ 4. Express solidity as the ratio between the object area and the convex hull area.
+ 5. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003028,ratio,Numerical,,,,UO:0010006,,,,,,,,,,
+,CO_369:0000087,SdTSC_TSCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001076,Seed total starch content,Quality,The total starch content of a sample of seeds,,SdTSC,,Seed,total starch content,Recommended,,CO_369:0002069,Seed total starch content measurement,Measurement,"Description: Determination of total starch by amyloglucosidase/alpha-amylase method
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AOAC 996.11",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000088,SdW_Wmsr_mm,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-21 00:00:00,EN,Sainfoin,CO_369:0001077,Seed width,Morphological,The width of a seed along its minor axis orthogonal to the main axis along the image plane.,,SdW,,Seed,width,Recommended,,CO_369:0002044,Object width measurement,Measurement,"Description: Calculate the width of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Fit a rotated bounding box or an ellipse to an image object
+ 2. Record the object width as the minor axis length of the ellipse or the length of the smaller side of a rotated bounding box",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000089,SdYld_SdYldArcmp_g/m2,,,P3,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001078,Seed yield,Agronomic,"The total yield of the seeds of the plant. This is express in an amount of unit relative to another amount, i.e. land area, number of plants, plant weight, etc",,SdYld,,Seed,yield,Recommended,,CO_369:0002070,Seed yield per area computation,Computation,"Description: Record the total seed yield per area
+
+ Materials: plot combine, laboratory scale
+
+ Dependent_on: Plot area msr [m2], Seed moisture content [%]
+
+ Protocol:
+ 1. Drive plot combine through each plot and collect fruit or harvest plot by hand.
+ 2. Remove pericarp from fruit and collect seeds in a paper bag.
+ 3. Dry seeds to a specified % moisture content.
+ 4. Get the dry weight of harvested seeds.
+ 5. Divide the total dry weight of seeds by the plot area or harvested area.
+ 6. Report yield at seed moisture content.",,,CO_369:0003009,gram per square meter,Numerical,,,,UO:0010049,,,,,,,,,,
+,CO_369:0000090,SdYld_SdYldPlcmp_g/Pl,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-27 00:00:00,EN,Sainfoin,CO_369:0001078,Seed yield,Agronomic,"The total yield of the seeds of the plant. This is express in an amount of unit relative to another amount, i.e. land area, number of plants, plant weight, etc",,SdYld,,Seed,yield,Recommended,,CO_369:0002071,Seed yield per plant computation,Computation,"Description: Record the seed yield per plant
+
+ Materials:
+
+ Dependent_on: Seed mass msr [g], Plant number cnt [n], Seed moisture content [%]
+
+ Protocol:
+ 1. Sample plants according to sampling protocol.
+ 2. Place whole plant through a large bundle thresher (Almaco, Vogel,etc.) or even strip all fruit off by hand.
+ 3. Remove the seeds from the pericarp.
+ 4. Clean seeds using sieves and/or blower columns and/or indent cylinders to remove all foreign material.
+ 5. Finally, weigh the seeds and divide by the number of plants threshed.
+ 6. Report at seed moisture content.",,,CO_369:0003010,gram per plant,Numerical,,,,UO:0000021/PO:0000003,,,,,,,,,,
+,CO_369:0000091,SdYld_SdYldRacmp_g/Ra,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-09-27 00:00:00,EN,Sainfoin,CO_369:0001078,Seed yield,Agronomic,"The total yield of the seeds of the plant. This is express in an amount of unit relative to another amount, i.e. land area, number of plants, plant weight, etc",,SdYld,,Seed,yield,Recommended,,CO_369:0002072,Seed yield per raceme computation,Computation,"Description: Record the seed yield per raceme
+
+ Materials:
+
+ Dependent_on: Seed mass msr [g], Raceme number cnt [n], Seed moisture content [%]
+
+ Protocol:
+ 1. Sample racemes on a plant according to your sampling protocol.
+ 2. For each raceme, strip all fruit into a pan.
+ 3. Remove the pericarps from each fruit and collect the seeds.
+ 4. Dry seeds to specified % moisture.
+ 5. Weigh the seeds.
+ 6. Divide the total weight by the number of racemes.
+ 7. Report yield at seed moisture content.",,,CO_369:0003011,gram per raceme,Numerical,,,,UO:0000021/PO:0030115,,,,,,,,,,
+,CO_369:0000092,SdYld_SdYldStcmp_g/St,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-10-26 00:00:00,EN,Sainfoin,CO_369:0001078,Seed yield,Agronomic,"The total yield of the seeds of the plant. This is express in an amount of unit relative to another amount, i.e. land area, number of plants, plant weight, etc",,SdYld,,Seed,yield,Recommended,,CO_369:0002073,Seed yield per stem computation,Computation,"Description: Record the seed yield per stem
+
+ Materials:
+
+ Dependent_on: Seed mass msr [g], Stem number cnt [n], Seed moisture content [%]
+
+ Protocol:
+ 1. Sample stems on a plant according to your sampling protocol.
+ 2. For each stem, strip all fruit from all raceme into a pan.
+ 3. Remove the pericarps from each fruit and collect the seeds.
+ 4. Dry seeds to specified % moisture.
+ 5. Weigh the seeds.
+ 6. Divide the total weight by the number of stems.
+ 7. Report yield at seed moisture content.",,,CO_369:0003012,gram per stem,Numerical,,,,,,,,,,,,,,
+,CO_369:0000093,SdYld_SdYldArcmp_kg/ha,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001078,Seed yield,Agronomic,"The total yield of the seeds of the plant. This is express in an amount of unit relative to another amount, i.e. land area, number of plants, plant weight, etc",,SdYld,,Seed,yield,Recommended,,CO_369:0002070,Seed yield per area computation,Computation,"Description: Record the total seed yield per area
+
+ Materials: plot combine, laboratory scale
+
+ Dependent_on: Plot area msr [m2], Seed moisture content [%]
+
+ Protocol:
+ 1. Drive plot combine through each plot and collect fruit or harvest plot by hand.
+ 2. Remove pericarp from fruit and collect seeds in a paper bag.
+ 3. Dry seeds to a specified % moisture content.
+ 4. Get the dry weight of harvested seeds.
+ 5. Divide the total dry weight of seeds by the plot area or harvested area.
+ 6. Report yield at seed moisture content.",,,CO_369:0003016,kilogram per hectare,Numerical,,,,UO:0000283,,,,,,,,,,
+,CO_369:0000094,SdZC_ZCmsr_DMB,,,"P3,PH1",Recommended,,"The Land Institute - 00jxaym78,Adana Alparslan Türkeş Science and Technology University - 013z3yn41","Brandon Schlautman - 0000-0002-9983-259X,Muhammet Sakirgolu - 0000-0002-7024-4348",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001079,Seed zinc content,Quality,The zinc content of a sample of seeds,,SdZC,,Seed,zinc content,Recommended,,CO_369:0002074,Seed zinc content measurement,Measurement,"Description: Measure the zinc content in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 40-70.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000095,SdlEmDate_Emest_date,,,Em,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-09-20 00:00:00,EN,Sainfoin,CO_369:0001080,Seedling emergence date,Phenological,The emergence date of new shoots in the spring,,SdlEmDate,,Seedling,emergence date,Recommended,,CO_369:0002075,Seedling emergence date estimation,Estimation,"Description: Estimate the emergence date of the shoots of seedlings
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. Record the date (ISO8601 format) when at least 50% seedlings in a plot have germinated and are starting to break through the soil surface (establishment year)",,,CO_369:0003004,date,Date,,,,,,,,,,,,,,
+,CO_369:0000096,StL_StLmsr_cm,,,"F1,F2",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78","Muhammet Sakirgolu - 0000-0002-7024-4348,Brandon Schlautman - 0000-0002-9983-259X",2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001081,Stem length,Morphological,The total length of a single plant stem or the mean value of several stems,,StL,,Stem,length,Recommended,,CO_369:0002079,Stem length measurement,Measurement,"Description: Measure the length of one representative stem by stretching it out end to end.
+ Materials: ruler or tape measure;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Select one representative stem from a single plant.
+ 2. Harvest the stem by cutting just above the soil level near the crown.
+ 3. Stretch the stem out on a flat surface.4. Measure the stem from the proximal end to the distal end at the growth apex.",,,CO_369:0003003,centimeter,Numerical,,,,UO:0000015,,,,,,,,,,
+,CO_369:0000097,StN_StNPlcmp_n/Pl,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-02 00:00:00,EN,Sainfoin,CO_369:0001082,Stem number,Morphological,"The total number of stems counted, estimated, or observed",,StN,,Stem,number,Recommended,,CO_369:0002081,Stem number per plant computation,Computation,"Description: Record the total number of stems per plant
+
+ Materials:
+
+ Dependent_on: Stem number cnt [n], Plant number cnt [n]
+
+ Protocol:
+ 1. Sample plants according to your sampling protocol.
+ 2. For each plant, separate and count the stems one by one.
+ 3. Total the number of stems for all plants and divide by the number of plants.",,,CO_369:0003024,number per plant,Numerical,,,,UO:0000189/PO:0000003,,,,,,,,,,
+,CO_369:0000098,StN_StNcnt_n,,,P2,Recommended,,The Land Institute - 00jxaym78,Brandon Schlautman - 0000-0002-9983-259X,2022-06-14 00:00:00,EN,Sainfoin,CO_369:0001082,Stem number,Morphological,"The total number of stems counted, estimated, or observed",,StN,,Stem,number,Recommended,,CO_369:0002080,Stem number counting,Counting,"Description: Record the number of stems on one plant
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, count the number of stems and express as an integer.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000099,FrYld_FrYldStcmp_g/St,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-03-08 00:00:00,EN,Sainfoin,CO_369:0001038,Legume fruit yield,Agronomic,The total mass of the sampled fruit divided by an amount of some other entity,,FrYld,,Legume fruit,yield,Recommended,,CO_369:0002084,Legume fruit yield per stem per computation,Computation,"Description: Compute the total yield of legume fruit per stem
+
+Materials: laboratory balance Dependent_on: Legume fruit mass msr [g], Stem number cnt [n] 
+
+Dependent on: 
+
+Protocol: 1. Sample stems according to your sampling protocol. 
+2. Sample stems according to your sampling protocol. 
+3. Weigh the fruit in g. 
+4. Divide the fruit mass by the number of stems to express fruit yield in g/stem.",FrYld = frac{FrM[g]}{FrM[n]},,CO_369:0003012,gram per stem,Numerical,,,,,,,,,,,,,,
+,CO_369:0000100,PlVR_Vrest_VR1to5,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-03-08 00:00:00,EN,Sainfoin,CO_369:0001083,Plant verticillium resistance,Biotic Stress,The resistance of sainfoin germplasm to Verticillium wilt,,PlVR,,Plant,verticillium resistance,Recommended,,CO_369:0002085,Verticillium resistance estimation,Estimation,"Description: A simple method to rate plants according to their resistance to verticillium infections 
+
+Materials: 
+
+Dependent_on: 
+
+Protocol: 1. See full protocol at https://www.naaic.org/stdtests/verticil.pdf",,https://www.naaic.org/stdtests/verticil.pdf,CO_369:0003032,verticillium resistance 1-5,Numerical,,,,https://www.naaic.org/stdtests/verticil.pdf,1=Resistant: No to minimal chlorosis of lower leaves,"2=Resistant: Chlorosis of lower and middle leaves, but no chlorosis or necrosis of terminal leaves","3=Susceptible: Well developed symploms of chlorotic, necrotic and twisted terminal leaflets on at least one, but not all main stems","4=Susceptible: Severe symptoms of chlorosis, necrosis, and twisting of all leaflets on all main stems",5=Susceptible: Plant dead,,,,,
+,CO_369:0000101,LfN_LfCLcmp_n/CL,,,"V1,E1,B1,B2,F1,F2,P1,P2,P3,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-03-08 00:00:00,EN,Sainfoin,CO_369:0001084,Leaflet number,Morphological,The total number of leaflets counted,,LfN,,Leaflet,number,Recommended,,CO_369:0002086,Leaflet per compound leaf computation,Computation,"Description: A count of the total leaflets normalized on a per compound leaf basis. 
+
+Materials: Handheld clicker, possibly a scanner or camera. 
+
+Dependent_on: 
+
+Protocol: 1. Sample compound leaves according to the sampling protocol. 
+2. Count the total number of compound leaves collected or sampled. 
+3. Count the total number of leaflets on each compound leaf. 
+4. Sum the leaflets and divide by the number of compound leaves. 
+
+Note: This data can be collected manually or by scanning/imaging and image analysis.",Leaflet(n)/compound leaf(n),,CO_369:0003033,number per compound leaf,Numerical,,,,,,,,,,,,,,
+,CO_369:0000102,PtAr_PtArmsr_ha,,,"V1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001053,Plot area,Morphological,The total area of an experimental plot,,PtAr,,Plot,area,Recommended,,CO_369:0002052,Plot area measurement,Measurement,"Description: Measure the total area of a plot
+
+ Materials: tape measure
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find the corner of the plot.
+ 2. Record the actual length and width of the plot.
+ 3. Multiply and express in square units of length or in some standard area unit.",,,CO_369:0003037,hectare,Numerical,,,,UO:0010010,,,,,,,,,,
+,CO_369:0000103,FoYld_FoYldArcmp_kg/ha,,,"E1,PH1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001017,Forage yield,Agronomic,The total mass of forage harvested or sampled relative to some other value,,FoYld,,Forage,yield,Recommended,,CO_369:0002016,Forage yield per area computation,Computation,"Description: Calculate the total mass of forage harvested per unit area.
+
+ Materials: tape measure; scale;
+
+ Dependent_on: Forage fresh mass msr [kg] | Forage dry mass msr [kg]; Plot area msr [m2];
+
+ Protocol:
+ 1. Record the weight for forage fresh mass or forage dry mass.
+ 2. Divide the mass by the total area of the harvested plot.",,,CO_369:0003016,kilogram per hectare,Numerical,,,,UO:0000283,,,,,,,,,,
+,CO_369:0000104,FrM_FrMmsr_kg,,,P3,Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001032,Legume fruit mass,Agronomic,The total mass of the sampled fruit,,FrM,,Legume fruit,mass,Recommended,,CO_369:0002027,Legume fruit mass measurement,Measurement,"Description: Record the total mass of a sample of legume fruits.
+
+ Materials: plot combine; laboratory seed thresher; column seed blower; digital scale;
+
+ Dependent_on:
+
+ Protocol:
+ 1. Harvest legume fruits according to your sampling protocol.
+ 2. Dry the harvested material.
+ 3. Thresh the fruits off of the stems with a laboratory scale seed thresher (Wintersteiger LD 350).
+ 4. Clean the fruit by using a column seed blower or running the fruit through the seed thresher a second time.
+ 5. Record the total weight of the cleaned fruit.",,,CO_369:0003015,kilogram,Numerical,,,,UO:0000009,,,,,,,,,,
+,CO_369:0000105,PlDeath_PDest_01,,,"V1,E1,B1,B2,F1,F2,P2,P3,PH1,P1,Do,Em",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001085,Plant death,Agronomic,Whether or not a single plant lives or dies.,,PlDeath,,Plant,death,Recommended,,CO_369:0002094,Plant death estimation,Estimation,"Description: Estimating whether a single plant is dead or not, by scoring with a binary outcome.
+
+Materials:
+
+Dependent on:
+
+Protocol: 1. Find a single plant, and determine if the plant is dead or not. 
+2. If dead, score as a 1, if alive, score as a 0.
+
+Note: This data is only applicable to a single plant",,,CO_369:0003034,binary outcome,Numerical,,,,,,,,,,,,,,
+,CO_369:0000106,CLA_PAmsr_mm2,,,"V1,E1,B1,B2,F1,F2,P2,P3,PH1,P1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001086,Compound leaf area,Morphological,The total area of a single compound leaf.,,CLA,,Compound leaf,area,Recommended,,CO_369:0002042,Object projected area measurement,Measurement,"Description: Calculate the projected area of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find an object contour using cv.findContours()
+ 2. Export the contour area as cv.contourArea()
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003022,square millimeter,Numerical,,,,UO:0000082,,,,,,,,,,
+,CO_369:0000107,LfA_PAmsr_mm2,,,"E1,V1,B1,B2,F1,F2,P2,P3,PH1,Em,P1,Do",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001087,Leaflet area,Morphological,The total area of a single leaflet or a the average area of a sample of leaflets.,,LfA,,Leaflet,area,Recommended,,CO_369:0002042,Object projected area measurement,Measurement,"Description: Calculate the projected area of an object
+
+ Materials: seed image, python-opencv
+
+ Dependent_on:
+
+ Protocol:
+ 1. Find an object contour using cv.findContours()
+ 2. Export the contour area as cv.contourArea()
+ 3. See https://docs.opencv.org/4.x/d1/d32/tutorial_py_contour_properties.html",,,CO_369:0003022,square millimeter,Numerical,,,,UO:0000082,,,,,,,,,,
+,CO_369:0000108,StdCnt_SCcmp_n/Pt,,,"B1,B2,E1,F1,F2,P2,P3,V1,PH1,P1,Do",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001088,Stand count,Agronomic,The number of plants in a stand or group.,,StdCnt,,Stand,count,Recommended,,CO_369:0002087,Stand count computation,Computation,"Description: A count of the total living plants in a plot or group of plants
+
+Materials: Handheld clicker and datasheet, or mobile phenotyping app.
+
+Dependent_on: 
+
+Protocol: 1. Go through the plot and count the total number of living plants in the plot.",,,CO_369:0003035,number per plot,Numerical,,,,,,,,,,,,,,
+,CO_369:0000109,CLSLA_SLAcmp_mm2/mg,,,"V1,E1,B1,B2,F1,F2,P2,P3,PH1,P1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001089,Compound leaf SLA,Morphological,"The specific leaf area of a single compound leaf, or the average specific leaf area of a sample of compound leaves.",Compound leaf specific leaf area,CLSLA,,Compound leaf,SLA,Recommended,,CO_369:0002088,Specific leaf area computation,Computation,"Description: The specific leaf area of any leaf parts, compound leaf/leaves, or leaflet(s).
+
+Materials: Scanner or camera, internal standard, paper bags.
+
+Dependent_on: leaf/leaflet dry mass, leaf/leaflet area.
+
+Protocol: 1. Scan/image the leaf parts and calculate the total area in mm2.
+2. Dry the leaves until the dry mass is constant. Record in mg
+3. Divide the area by the mass.",,,CO_369:0003036,square millimeter per milligram,Numerical,,,,,,,,,,,,,,
+,CO_369:0000110,CLDM_LfDMmsr_mg,,,"V1,E1,B1,B2,F1,F2,P2,P3,PH1,P1",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001090,Compound leaf dry mass,Agronomic,The dry mass of a single compound leaf or a sample of compound leaves.,,CLDM,,Compound leaf,dry mass,Recommended,,CO_369:0002091,Leaf dry mass measurement,Measurement,"Description: Determine the dry mass of a compound leaf, leaflet, or a mixed sample of leaves
+
+Materials: sample bags, analytical balance
+
+Dependent_on:
+
+Protocol: 1. Place a sample of leaves in a sample bag.
+2. Dry until the bag has reached a constant weight.
+3. Record the dry mass of the sample in the appropriate units.",,,CO_369:0003019,milligram,Numerical,,,,UO:0000022,,,,,,,,,,
+,CO_369:0000111,SdG_Gcnt_n,,,Em,Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-12 00:00:00,EN,Sainfoin,CO_369:0001092,Seed germination,Physiological,The total count of germinated seeds.,,SdG,,Seed,germination,Recommended,,CO_369:0002090,Germination counting,Counting,"Description: Count the number of germinated seeds in a group
+
+Materials: Warm water, beaker, germination paper, enclosed container.
+
+Dependent_on:
+
+Protocol: 1. Soak a subset of seeds (minimum of 10, ideally around 100) in warm water (120F) for 30 minutes.
+2. Place on moist germination paper.
+3. Cover seeds and place at room temperature for 5-7 days. 
+4. Count the number of seeds that have germinated
+
+Note: The enclosed container can be anything that holds the germination paper and keeps the paper moist.",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000112,SLG_Gcmp_%,"Seedlot germination percentage, Seedlot viability rate",,Em,Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-04-03 00:00:00,EN,Sainfoin,CO_369:0001091,Seedlot germination,Physiological,The germination rate of a seedlot,,SLG,,Seedlot,germination,Recommended,,CO_369:0002089,Germination rate computation,Computation,"Description: Measure the germination rate of a seedlot
+
+Materials:
+
+Dependent_on: Seed number cnt [n], Seed germination cnt [n]
+
+Protocol: 1. Divide the Seed germination cnt [n] of a seedlot sample by the total Seed number cnt [n] in the sample.",,,CO_369:0003001,percent,Numerical,,,,UO:0000187,,,,,,,,,,
+,CO_369:0000113,StN_StNPlcmp_n/Pt,,,"B1,B2,F1,F2,P2,P3",Recommended,,The Land Institute - 00jxaym78,Bo Meyering - 0000-0002-1524-787X,2023-07-07 00:00:00,EN,Sainfoin,CO_369:0001082,Stem number,Morphological,"The total number of stems counted, estimated, or observed",,StN,,Stem,number,Recommended,,CO_369:0002080,Stem number counting,Counting,"Description: Record the number of stems on one plant
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. For a single plant, count the number of stems and express as an integer.",,,CO_369:0003035,number per plot,Numerical,,,,,,,,,,,,,,
+,CO_369:0000114,SdSDFC_DFCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001093,Seed soluble dietary fiber content,Quality,The dietary fiber content in the soluble fraction of a sample of seeds.,,SdSDFC,,Seed,soluble dietary fiber content,Recommended,,CO_369:0002060,Seed dietary fiber content measurement,Measurement,"Description: Measure the total dietary fiber in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 32-07.01 (method1)
+ 2. See AOAC 991.43 (method2)",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000115,SdIDFC_DFCmsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001094,Seed insoluble dietary fiber content,Quality,The dietary fiber content in the insoluble fraction of a sample of seeds.,,SdIDFC,,Seed,insoluble dietary fiber content,Recommended,,CO_369:0002060,Seed dietary fiber content measurement,Measurement,"Description: Measure the total dietary fiber in a sample of seeds
+
+ Materials:
+
+ Dependent_on:
+
+ Protocol:
+ 1. See AACC 32-07.01 (method1)
+ 2. See AOAC 991.43 (method2)",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000116,SdGlucC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001095,Seed glucose content,Quality,The total glucose content of a sample of seeds.,,SdGlucC,,Seed,glucose content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000117,SdFrucC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001096,Seed fructose content,Quality,The total fructose content of a sample of seeds.,,SdFrucC,,Seed,fructose content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000118,SdSucC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001097,Seed sucrose content,Quality,The total sucrose content of a sample of seeds.,,SdSucrC,,Seed,sucrose content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000119,SdMaltC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001098,Seed maltose content,Quality,The total maltose content of a sample of seeds.,,SdMaltC,,Seed,maltose content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000120,SdLactC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001099,Seed lactose content,Quality,The total lactose content of a sample of seeds.,,SdLactC,,Seed,lactose content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000121,SdTSuC_SdSumsr_DMB,,,"P3,PH1",Recommended,,The Land Institute - 00jxaym78,Evan Craine - 0000-0002-6252-8973,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001100,Seed total sugar content,Quality,"The total sugar content of a sample of seeds. Is the sum total of the glucose, fructose, sucrose, maltose, lactose, and other minor sugars in the sample.",,SdTSuC,,Seed,total sugar content,Recommended,,CO_369:0002092,Seed sugar content measurement,Measurement,"Description: Determination of Simple Sugars in Cereal Products—HPLC Method
+
+ Materials: 
+
+ Dependent_on:
+
+ Protocol:
+ 1. See full protocol at AACC 80-04.01",,,CO_369:0003006,gram per 100 gram (dry matter basis),Numerical,,,,UO:1000021,,,,,,,,,,
+,CO_369:0000122,StTh_StThmsr_mm,,,"F1,F2",Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2023-10-04 00:00:00,EN,Sainfoin,CO_369:0001101,Stem thickness,Morphological,The thickness of the stem measured at the midpoint between the second and third nodes on a mature stem.,,StTh,,Stem,thickness,Recommended,,CO_369:0002093,Stem thickness measurement,Measurement,"Description: Measurement of stem thickness using digital calipers
+
+Materials: digital calipers;
+
+Dependent_on:
+
+Protocol:
+1. Select a mature sainfoin stem
+2. Locate the midpoint between the second and third nodes on the stem and record the thickness using calipers to the nearest tenth of a millimeter.
+
+Note: Can be used as a single stem trait or take the average if sampling several stems on a plant/plot.",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000123,FrShp_FrShpEst_FrShpScale,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001102,Legume fruit shape,Morphological,The shape of the legume fruit.,,FrShp,,Legume fruit,shape,,,CO_369:0002095,Legume fruit shape estimation,Estimation,"Description: Estimate the shape category of a sainfoin fruit.
+
+Materials: None
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Determine the specific shape of the fruit according to the shape scale. 
+3. Record the main shape as the standard shape.
+
+Note: ",,,CO_369:0003038,legume fruit shape scale,Nominal,,,,,1=Elliptical,2=Circular,3=Semi-circular,4=Reniform,,,,,,
+,CO_369:0000124,FrTrichP_FrTriEst_01,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001103,Legume fruit trichome presence,Morphological,The presence or absence of trichomes on the surface of the legume fruit.,,FrTrichP,,Legume fruit,trichome presence,,,CO_369:0002096,Legume fruit trichome estimation,Estimation,"Description: Estimation of the presence of trichomes on the fruit surface
+
+Materials: None
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Record whether or not there are trichomes present on the fruit.
+
+Note: ",,,CO_369:0003034,binary outcome,Numerical,,,,,,,,,,,,,,
+,CO_369:0000125,FrSpP_FrSpEst_01,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001104,Legume fruit spine presence,Morphological,The presence or absence of spines on the surface of the legume fruit.,,FrSpP,,Legume fruit,spine presence,,,CO_369:0002097,Legume fruit spine estimation,Estimation,"Description: Estimation of the presence of spines on the fruit surface
+
+Materials: None
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Record whether or not there are spines present on the fruit.
+
+Note: ",,,CO_369:0003034,binary outcome,Numerical,,,,,,,,,,,,,,
+,CO_369:0000126,FrSpN_FrSpCnt_n,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,"CO_369:0001105
+",Legume fruit spine number,Morphological,The total number of spines visible on the surface of the legume fruit.,,FrSpN,,Legume fruit,spine number,,,CO_369:0002098,Legume fruit spine counting,Counting,"Description: Count the number of spines on one surface of the fruit.
+
+Materials: 
+
+Dependent_on:
+
+Protocol:
+1. Observe one fruit(s) according to your sampling protocol.
+2. If an image, count the total number of spines on the projected portion of the fruit image (what is visible). Otherwise, lay the fruit on a flat surface and count the number of spines that are visible on one side.
+
+Note: ",,,CO_369:0003023,number,Numerical,,,,UO:0000189,,,,,,,,,,
+,CO_369:0000127,FrSpDens_FrSpDensCmp_n/mm2,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001106,Legume fruit spine density,Morphological,The number of spines visible on the surface of the legume fruit per unit area of visible seed surface.,,FrSpDens,,Legume fruit,spine density,,,CO_369:0002099,Legume fruit spine density computation,Computation,"Description: Find the spine density.
+
+Materials: None
+
+Dependent_on: Legume fruit projected area msr [mm2], Legume fruit spine number cnt [n]
+
+Protocol:
+1. Take the total number of spines and divide by the legume fruit area to get a density.
+
+Note: ",,,CO_369:0003040,number per square millimeter,Numerical,,,,,,,,,,,,,,
+,CO_369:0000128,FrSpShp_FrSpShpEst_FrSpShpScale,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001107,Legume fruit spine shape,Morphological,The shape of the spines on the surface of the legume fruit.,,FrSpShp,,Legume fruit,spine shape,,,CO_369:0002100,Legume fruit spine shape estimation,Estimation,"Description: Estimate the spine shape of a legume fruit.
+
+Materials: 
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Select the main category of spine shapes that the spines adhere to.
+
+Note: ",,,CO_369:0003039,legume fruit spine shape,Nominal,,,,,1=Trilateral,2=Conical,,,,,,,,
+,CO_369:0000129,FrSpL_FrSpLMsr_mm,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001108,Legume fruit spine length,Morphological,The length of the spines on the surface of the legume fruit.,,FrSpL,,Legume fruit,spine length,,,CO_369:0002101,Legume fruit spine length measurement,Measurement,"Description: Measure the spines on a legume fruit.
+
+Materials: digital calipers; 
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. For each spine on a fruit, measure the length of the spine from the base of the spine to the tip using digital calipers.
+
+Note: ",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
+,CO_369:0000130,FrVeinP_FrVeinPEst_01,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001109,Legume fruit vein presence,Morphological,The presence or absence of veins on the surface of the legume fruit.,,FrVeinP,,Legume fruit,vein presence,,,CO_369:0002102,Legume fruit vein presence estimation,Estimation,"Description: Estimation of the presence of veins on the fruit surface
+
+Materials: None
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Record whether or not there are veins present on the disc or crest of the fruit.
+
+Note: ",,,CO_369:0003034,binary outcome,Numerical,,,,,,,,,,,,,,
+,CO_369:0000131,FrCrestP_FrCrestPEst_01,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001110,Legume fruit crest presence,Morphological,The presence or absence of a crest on the surface of the legume fruit.,,FrCrestP,,Legume fruit,crest presence,,,CO_369:0002103,Legume fruit crest presence estimation,Estimation,"Description: Estimation of the presence of a crest on the fruit surface
+
+Materials: None
+
+Dependent_on:
+
+Protocol:
+1. Observe a fruit(s) according to your sampling protocol.
+2. Record whether or not there is a crest (the flattened area between the inner fruit disc and the outer marginal vein.
+
+Note: ",,,CO_369:0003034,binary outcome,Numerical,,,,,,,,,,,,,,
+,CO_369:0000132,CLPL_CLPLMsr_mm,,,PH1,Recommended,,"Adana Alparslan Türkeş Science and Technology University - 013z3yn41,The Land Institute - 00jxaym78",Ebrar Karabulut - 0000-0003-0030-2933,2024-09-23 00:00:00,EN,Sainfoin,CO_369:0001111,Compound leaf petiole length,Morphological,The total curvilinear length of the petiole of a compound leaf from the basal end of the petiole to distal end where the terminal leaflet attaches.,,CLPL,,Compound leaf,petiole length,,,CO_369:0002104,Compound leaf petiole length measurement,Measurement,"Description: Measure the length of a compound leaf petiole.
+
+Materials: metric ruler;
+
+Dependent_on:
+
+Protocol:
+1. For each compound leaf that you observe, measure the length of the petiole with a ruler from the base of the petiole to the distal end where the terminal leaflet attaches.
+
+Note: ",,,CO_369:0003021,millimeter,Numerical,,,,UO:0000016,,,,,,,,,,
