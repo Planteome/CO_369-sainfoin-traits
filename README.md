@@ -28,9 +28,7 @@ Sec. Plant Breeding<br/>
 Volume 14 - 2023 | [https://doi.org/10.3389/fpls.2023.1177406](https://doi.org/10.3389/fpls.2023.1177406)<br/>
 
 ## Current Zenodo Version
-Version ______
-
-DOI: ________
+Version: 1.0 [DOI](10.5281/zenodo.11475143)
 
 ## GitHub Issues Workflow
 Please navigate to our <a href="https://github.com/Planteome/CO_369-sainfoin-traits/issues/new/choose" target="_blank">Github Issues Page</a> if you want to suggest a correction or new term to the ontology. Currently we have the following issue templates created:
@@ -45,7 +43,7 @@ For general questions regarding the ontology or other inquiries, please post you
 ## Crop Specific Standard Nomenclature
 
 ## Current Highest Term IDs
-* Variable: CO_369:0000122
-* Trait: CO_369:0001101
-* Method: CO_369:0002093
-* Scale: CO_369:0003037
+* Variable: CO_369:0000132
+* Trait: CO_369:0001111
+* Method: CO_369:0002104
+* Scale: CO_369:0003040
